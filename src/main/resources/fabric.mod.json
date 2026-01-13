@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "wekkonmod",
+	"version": "${version}",
+	"name": "Wekkon Mod",
+	"description": "Hey there, uture me! 13.01.2026",
+	"authors": [
+		"moxnate & his patient"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/wekkonmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.moxnate.wekkonmod.WekkonMod"
+		],
+		"fabric-datagen": [
+			"net.moxnate.wekkonmod.WekkonModDataGenerator"
+		],
+        "client": [
+          "net.moxnate.wekkonmod.WekkonModClient"
+        ]
+	},
+	"mixins": [
+		"wekkonmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
