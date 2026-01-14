@@ -12,6 +12,7 @@ public class ModItems {
 
     public static final Item PINK_PROXIUM = registerItem("pink_proxium", new Item(new Item.Settings()));
     public static final Item RAW_PINK_PROXIUM = registerItem("raw_pink_proxium", new Item(new Item.Settings()));
+    public static final Item REINFORCED_PINK_PROXIUM = registerItem("reinforced_pink_proxium", new Item(new Item.Settings()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(WekkonMod.MOD_ID, name), item);
@@ -23,6 +24,7 @@ public class ModItems {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
             entries.add(PINK_PROXIUM);
             entries.add(RAW_PINK_PROXIUM);
+            entries.add(REINFORCED_PINK_PROXIUM);
         });
     }
 }
