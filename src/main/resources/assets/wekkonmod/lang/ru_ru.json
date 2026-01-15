@@ -1,5 +1,8 @@
 {
   "item.wekkonmod.pink_proxium": "Розовый Проксий",
   "item.wekkonmod.raw_pink_proxium": "Неочищенный Розовый Проксий",
-  "item.wekkonmod.reinforced_pink_proxium": "Укреплённый Розовый Проксий"
+  "item.wekkonmod.reinforced_pink_proxium": "Укреплённый Розовый Проксий",
+
+  "block.wekkonmod.pink_proxium_block": "Блок из Розового Проксия",
+  "block.wekkonmod.pink_proxium_ore": "Руда Розового Проксия"
 }

@@ -1,5 +1,8 @@
 {
   "item.wekkonmod.pink_proxium": "Pink Proxium",
   "item.wekkonmod.raw_pink_proxium": "Raw Pink Proxium",
-  "item.wekkonmod.reinforced_pink_proxium": "Reinforced Pink Proxium"
+  "item.wekkonmod.reinforced_pink_proxium": "Reinforced Pink Proxium",
+
+  "block.wekkonmod.pink_proxium_block": "Block of Pink Proxium",
+  "block.wekkonmod.pink_proxium_ore": "Pink Proxium Ore"
 }
