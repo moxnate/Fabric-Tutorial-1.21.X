@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.5,
+  "group": "pink_proxium",
+  "ingredient": {
+    "item": "wekkonmod:raw_pink_proxium"
+  },
+  "result": {
+    "id": "wekkonmod:pink_proxium"
+  }
+}

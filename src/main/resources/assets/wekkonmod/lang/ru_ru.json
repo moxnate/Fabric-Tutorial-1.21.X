@@ -2,7 +2,12 @@
   "item.wekkonmod.pink_proxium": "Розовый Проксий",
   "item.wekkonmod.raw_pink_proxium": "Неочищенный Розовый Проксий",
   "item.wekkonmod.reinforced_pink_proxium": "Укреплённый Розовый Проксий",
+  "item.wekkonmod.chisel": "Зубило",
 
   "block.wekkonmod.pink_proxium_block": "Блок из Розового Проксия",
-  "block.wekkonmod.pink_proxium_ore": "Руда Розового Проксия"
+  "block.wekkonmod.pink_proxium_ore": "Руда Розового Проксия",
+
+  "itemgroup.wekkonmod.proxium_crystals": "Кристаллы Проксия",
+  "itemgroup.wekkonmod.proxium_blocks": "Блоки Проксия",
+  "itemgroup.wekkonmod.other_wekkon_items": "Другие предметы Wekkon"
 }
