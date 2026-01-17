@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "wekkonmod:block/pure_proxium_block"
+    }
+  }
+}

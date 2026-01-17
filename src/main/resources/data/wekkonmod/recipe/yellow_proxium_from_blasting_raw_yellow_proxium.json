@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.2,
+  "group": "yellow_proxium",
+  "ingredient": {
+    "item": "wekkonmod:raw_yellow_proxium"
+  },
+  "result": {
+    "id": "wekkonmod:yellow_proxium"
+  }
+}

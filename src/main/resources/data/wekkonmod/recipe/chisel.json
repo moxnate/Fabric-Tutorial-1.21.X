@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "wekkonmod:pink_proxium_block"
+    },
+    "X": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "  #",
+    " X ",
+    "X  "
+  ],
+  "result": {
+    "count": 1,
+    "id": "wekkonmod:chisel"
+  }
+}

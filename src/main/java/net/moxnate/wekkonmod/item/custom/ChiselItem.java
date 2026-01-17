@@ -20,10 +20,8 @@ import java.util.Map;
 public class ChiselItem extends Item {
     public static final Map<Block, Block> CHISEL_MAP =
             Map.of(
-                    Blocks.STONE, Blocks.STONE_BRICKS,
-                    Blocks.END_STONE, Blocks.END_STONE_BRICKS,
-                    Blocks.SAND, ModBlocks.PINK_PROXIUM_BLOCK,
-                    Blocks.DIRT, Blocks.NETHERITE_BLOCK
+                    Blocks.COBBLESTONE, Blocks.STONE,
+                    Blocks.DIRT, Blocks.GRASS_BLOCK
             );
 
     public ChiselItem(Settings settings) {

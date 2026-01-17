@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "wekkonmod:pink_proxium_block"
+    "wekkonmod:orange_proxium_ore",
+    "wekkonmod:yellow_proxium_block",
+    "wekkonmod:yellow_proxium_ore",
+    "wekkonmod:red_proxium_block"
   ]
 }

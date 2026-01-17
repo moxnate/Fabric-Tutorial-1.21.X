@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "wekkonmod:red_proxium"
+    },
+    "X": {
+      "item": "wekkonmod:reinforced_red_proxium"
+    }
+  },
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "wekkonmod:red_proxium_block"
+  }
+
+}

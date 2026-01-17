@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "wekkonmod:block/decorated_pure_proxium_block"
+  }
+}
