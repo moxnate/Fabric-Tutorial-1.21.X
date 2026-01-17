@@ -24,8 +24,10 @@
   "block.wekkonmod.red_proxium_ore": "Red Proxium Ore",
   "block.wekkonmod.pure_proxium_block": "Block of Pure Proxium",
   "block.wekkonmod.decorated_pure_proxium_block": "Decorated Block of Pure Proxium",
+  "block.wekkonmod.magic_block": "Magic Block",
 
   "itemgroup.wekkonmod.proxium_crystals": "Proxium Crystals",
   "itemgroup.wekkonmod.proxium_blocks": "Proxium Blocks",
-  "itemgroup.wekkonmod.other_wekkon_items": "Other Wekkon Items"
+  "itemgroup.wekkonmod.other_wekkon_items": "Other Wekkon Items",
+  "itemgroup.wekkonmod.other_wekkon_blocks": "Other Wekkon Blocks"
 }

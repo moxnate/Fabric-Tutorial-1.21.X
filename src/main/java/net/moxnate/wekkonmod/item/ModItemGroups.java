@@ -57,6 +57,14 @@ public class ModItemGroups {
                       entries.add(ModItems.CHISEL);
                     }).build());
 
+    public static final ItemGroup OTHER_WEKKON_BLOCKS = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(WekkonMod.MOD_ID, "other_wekkon_blocks"),
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModBlocks.MAGIC_BLOCK))
+                    .displayName(Text.translatable("itemgroup.wekkonmod.other_wekkon_blocks"))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.MAGIC_BLOCK);
+                    }).build());
+
 
 
     public static void registerItemGroups() {

@@ -31,7 +31,6 @@ public class ModItems {
 
 
     public static final Item CHISEL = registerItem("chisel", new ChiselItem(new Item.Settings().maxDamage(8)));
-
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(WekkonMod.MOD_ID, name), item);
     }

@@ -24,8 +24,10 @@
   "block.wekkonmod.red_proxium_ore": "Руда Красного Проксия",
   "block.wekkonmod.pure_proxium_block": "Блок из Чистого Проксия",
   "block.wekkonmod.decorated_pure_proxium_block": "Украшенный Блок из Чистого Проксия",
+  "block.wekkonmod.magic_block": "Магический Блок",
 
   "itemgroup.wekkonmod.proxium_crystals": "Кристаллы Проксия",
   "itemgroup.wekkonmod.proxium_blocks": "Блоки Проксия",
-  "itemgroup.wekkonmod.other_wekkon_items": "Другие предметы Wekkon"
+  "itemgroup.wekkonmod.other_wekkon_items": "Другие предметы Wekkon",
+  "itemgroup.wekkonmod.other_wekkon_blocks": "Другие блоки Wekkon"
 }
