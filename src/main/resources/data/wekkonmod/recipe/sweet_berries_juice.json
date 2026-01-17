@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:glass_bottle"
+    },
+    "X": {
+      "item": "minecraft:sweet_berries"
+    },
+    "Y": {
+      "item": "wekkonmod:pure_proxium"
+    }
+  },
+  "pattern": [
+    "XXX",
+    "X#X",
+    "XYX"
+  ],
+  "result": {
+    "count": 1,
+    "id": "wekkonmod:sweet_berries_juice"
+  }
+}

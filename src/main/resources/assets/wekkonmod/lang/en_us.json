@@ -13,6 +13,9 @@
   "item.wekkonmod.reinforced_red_proxium": "Reinforced Red Proxium",
   "item.wekkonmod.pure_proxium": "Pure Proxium",
   "item.wekkonmod.chisel": "Chisel",
+  "item.wekkonmod.red_candy_cane": "Red Candy Cane",
+  "item.wekkonmod.sweet_berries_juice": "Sweet Berries Juice",
+  "item.wekkonmod.burning_star": "Burning Star",
 
   "block.wekkonmod.pink_proxium_block": "Block of Pink Proxium",
   "block.wekkonmod.pink_proxium_ore": "Pink Proxium Ore",
@@ -29,5 +32,6 @@
   "itemgroup.wekkonmod.proxium_crystals": "Proxium Crystals",
   "itemgroup.wekkonmod.proxium_blocks": "Proxium Blocks",
   "itemgroup.wekkonmod.other_wekkon_items": "Other Wekkon Items",
-  "itemgroup.wekkonmod.other_wekkon_blocks": "Other Wekkon Blocks"
+  "itemgroup.wekkonmod.other_wekkon_blocks": "Other Wekkon Blocks",
+  "itemgroup.wekkonmod.wekkon_food": "Wekkon Food"
 }

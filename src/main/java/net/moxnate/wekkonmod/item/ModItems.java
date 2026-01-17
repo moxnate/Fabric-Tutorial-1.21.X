@@ -1,13 +1,12 @@
 package net.moxnate.wekkonmod.item;
 
-import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.moxnate.wekkonmod.WekkonMod;
 import net.moxnate.wekkonmod.item.custom.ChiselItem;
+import net.moxnate.wekkonmod.item.custom.DrinkItem;
 
 public class ModItems {
 
@@ -31,6 +30,16 @@ public class ModItems {
 
 
     public static final Item CHISEL = registerItem("chisel", new ChiselItem(new Item.Settings().maxDamage(8)));
+
+
+    public static final Item RED_CANDY_CANE = registerItem("red_candy_cane", new Item(new Item.Settings().food(ModFoodComponents.RED_CANDY_CANE)));
+    public static final Item SWEET_BERRIES_JUICE = registerItem("sweet_berries_juice",
+            new DrinkItem(new Item.Settings().food(ModFoodComponents.SWEET_BERRIES_JUICE)));
+
+
+    public static final Item BURNING_STAR = registerItem("burning_star", new Item(new Item.Settings()));
+
+
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(WekkonMod.MOD_ID, name), item);
     }

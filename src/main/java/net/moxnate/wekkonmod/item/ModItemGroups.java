@@ -55,6 +55,7 @@ public class ModItemGroups {
                     .displayName(Text.translatable("itemgroup.wekkonmod.other_wekkon_items"))
                     .entries((displayContext, entries) -> {
                       entries.add(ModItems.CHISEL);
+                      entries.add(ModItems.BURNING_STAR);
                     }).build());
 
     public static final ItemGroup OTHER_WEKKON_BLOCKS = Registry.register(Registries.ITEM_GROUP,
@@ -63,6 +64,15 @@ public class ModItemGroups {
                     .displayName(Text.translatable("itemgroup.wekkonmod.other_wekkon_blocks"))
                     .entries((displayContext, entries) -> {
                         entries.add(ModBlocks.MAGIC_BLOCK);
+                    }).build());
+
+    public static final ItemGroup WEKKON_FOOD = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(WekkonMod.MOD_ID, "wekkon_food"),
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.RED_CANDY_CANE))
+                    .displayName(Text.translatable("itemgroup.wekkonmod.wekkon_food"))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModItems.RED_CANDY_CANE);
+                        entries.add(ModItems.SWEET_BERRIES_JUICE);
                     }).build());
 
 

@@ -2,6 +2,7 @@ package net.moxnate.wekkonmod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.moxnate.wekkonmod.block.ModBlocks;
 import net.moxnate.wekkonmod.item.ModItemGroups;
 import net.moxnate.wekkonmod.item.ModItems;
@@ -18,5 +19,8 @@ public class WekkonMod implements ModInitializer {
 
         ModItems.registerModItems();
         ModBlocks.registerModBlocks();
+
+        FuelRegistry.INSTANCE.add(ModItems.BURNING_STAR, 6400);
+        FuelRegistry.INSTANCE.add(ModItems.PURE_PROXIUM, 20_000);
 	}
 }
