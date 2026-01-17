@@ -1,9 +1,9 @@
 {
 	"schemaVersion": 1,
 	"id": "wekkonmod",
-	"version": "${version}",
+	"version": "1-1-0",
 	"name": "Wekkon Mod",
-	"description": "Hey there, uture me! 13.01.2026",
+	"description": "Hey there, future me! 13.01.2026",
 	"authors": [
 		"moxnate & his patient"
 	],
