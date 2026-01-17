@@ -15,7 +15,7 @@
   "item.wekkonmod.chisel": "Зубило",
   "item.wekkonmod.red_candy_cane": "Красная карамель-трость",
   "item.wekkonmod.sweet_berries_juice": "Сок из сладких ягод",
-  "item.wekkonmod.burning_star": "Горящая звезда",
+  "item.wekkonmod.burning_star": "§6Горящая звезда",
 
 
   "block.wekkonmod.pink_proxium_block": "Блок из Розового Проксия",
@@ -35,5 +35,14 @@
   "itemgroup.wekkonmod.proxium_blocks": "Блоки Проксия",
   "itemgroup.wekkonmod.other_wekkon_items": "Другие предметы Wekkon",
   "itemgroup.wekkonmod.other_wekkon_blocks": "Другие блоки Wekkon",
-  "itemgroup.wekkonmod.wekkon_food": "Еда Wekkon"
+  "itemgroup.wekkonmod.wekkon_food": "Еда Wekkon",
+
+
+  "tooltip.wekkonmod.magic_block.tooltip": "Просто кинь Чистый Проксиум на этот блок и увидишь §6МАГИЮ!",
+  "tooltip.wekkonmod.magic_block.tooltip.1": "§7Это НЕ сработает с любым другим предметом",
+  "tooltip.wekkonmod.chisel.shift_down": "Нажмите §cПКМ§r по §cБУЛЫЖНИКУ§r с зубилом в главной руке, чтобы превратить его в §aКАМЕНЬ§r",
+  "tooltip.wekkonmod.chisel.shift_down.1": "Нажмите §cПКМ§r по §cЗЕМЛЕ§r с зубилом в главной руке, чтобы превратить её в §aБЛОК ТРАВЫ§r",
+  "tooltip.wekkonmod.chisel": "Нажмите §eSHIFT§r для большей информации",
+  "tooltip.wekkonmod.red_candy_cane": "Это очень §6вкусная§r закуска,",
+  "tooltip.wekkonmod.red_candy_cane.1": "но ты можешь почуствовать §5небольшую слабость после её съедения§r"
 }

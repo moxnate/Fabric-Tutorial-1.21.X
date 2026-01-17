@@ -15,7 +15,7 @@
   "item.wekkonmod.chisel": "Chisel",
   "item.wekkonmod.red_candy_cane": "Red Candy Cane",
   "item.wekkonmod.sweet_berries_juice": "Sweet Berries Juice",
-  "item.wekkonmod.burning_star": "Burning Star",
+  "item.wekkonmod.burning_star": "§6Burning Star",
 
   "block.wekkonmod.pink_proxium_block": "Block of Pink Proxium",
   "block.wekkonmod.pink_proxium_ore": "Pink Proxium Ore",
@@ -33,5 +33,14 @@
   "itemgroup.wekkonmod.proxium_blocks": "Proxium Blocks",
   "itemgroup.wekkonmod.other_wekkon_items": "Other Wekkon Items",
   "itemgroup.wekkonmod.other_wekkon_blocks": "Other Wekkon Blocks",
-  "itemgroup.wekkonmod.wekkon_food": "Wekkon Food"
+  "itemgroup.wekkonmod.wekkon_food": "Wekkon Food",
+
+
+  "tooltip.wekkonmod.magic_block.tooltip": "Just drop a Pure Proxium on this block and then you will see §6MAGIC!§r",
+  "tooltip.wekkonmod.magic_block.tooltip.1": "§7It does §cNOT§r work with any other item",
+  "tooltip.wekkonmod.chisel.shift_down": "Click §cRMB§r on the §cCOBBLESTONE§r with chisel in main hand to turn it into the §aSTONE§r",
+  "tooltip.wekkonmod.chisel.shift_down.1": "Click §cRMB§r on the §cDIRT§r with chisel in main hand to turn it into the §aGRASS BLOCK§r",
+  "tooltip.wekkonmod.chisel": "Press §eSHIFT§r for more information",
+  "tooltip.wekkonmod.red_candy_cane": "That is very §6awesome§r and §6tasty§r snack,",
+  "tooltip.wekkonmod.red_candy_cane.1": "but you may feel a §5little short-lived weakness after you eat it§r"
 }
