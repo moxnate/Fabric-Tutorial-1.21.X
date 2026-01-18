@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "wekkonmod:block/yellow_proxium_ore"
-  }
-}

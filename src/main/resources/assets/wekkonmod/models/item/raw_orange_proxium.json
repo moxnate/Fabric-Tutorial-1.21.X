@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "wekkonmod:item/raw_orange_proxium"
-  }
-}
