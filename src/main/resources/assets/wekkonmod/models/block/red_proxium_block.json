@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "wekkonmod:block/red_proxium_block"
-  }
-}
