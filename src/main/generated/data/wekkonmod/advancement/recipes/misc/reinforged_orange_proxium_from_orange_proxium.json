@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_orange_proxium": {
+      "conditions": {
+        "items": [
+          {
+            "items": "wekkonmod:orange_proxium"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "wekkonmod:reinforged_orange_proxium_from_orange_proxium"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_orange_proxium"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "wekkonmod:reinforged_orange_proxium_from_orange_proxium"
+    ]
+  }
+}

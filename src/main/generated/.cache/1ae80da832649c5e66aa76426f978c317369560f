@@ -1,0 +1,5 @@
+// 1.21	2026-01-20T23:05:18.9519245	Wekkon Mod/Tags for minecraft:block
+163a6a5121b77e5ce8d83e08c67b170b02a6e1cf data\minecraft\tags\block\needs_diamond_tool.json
+21ab5dec9807227a64bb923703261891f880a677 data\minecraft\tags\block\mineable\pickaxe.json
+ac9186de7e68d1841a3672e2399ee2f95e9bdbe6 data\minecraft\tags\block\needs_stone_tool.json
+a8638d2e1626f3704d2e53a1f3ccdf67d372159a data\minecraft\tags\block\needs_iron_tool.json
