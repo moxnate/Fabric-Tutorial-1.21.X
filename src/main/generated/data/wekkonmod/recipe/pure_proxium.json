@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "O": {
+      "item": "wekkonmod:reinforced_orange_proxium"
+    },
+    "P": {
+      "item": "wekkonmod:reinforced_pink_proxium"
+    },
+    "R": {
+      "item": "wekkonmod:reinforced_red_proxium"
+    },
+    "Y": {
+      "item": "wekkonmod:reinforced_yellow_proxium"
+    }
+  },
+  "pattern": [
+    "PO",
+    "YR"
+  ],
+  "result": {
+    "count": 1,
+    "id": "wekkonmod:pure_proxium"
+  }
+}

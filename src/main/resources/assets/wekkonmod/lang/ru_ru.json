@@ -11,7 +11,7 @@
   "item.wekkonmod.red_proxium": "Красный Проксий",
   "item.wekkonmod.raw_red_proxium": "Неочищенный Красный Проксий",
   "item.wekkonmod.reinforced_red_proxium": "Укреплённый Красный Проксий",
-  "item.wekkonmod.pure_proxium": "Чистый Проксий",
+  "item.wekkonmod.pure_proxium": "§cЧистый Проксий§r",
   "item.wekkonmod.chisel": "Зубило",
   "item.wekkonmod.red_candy_cane": "Красная карамель-трость",
   "item.wekkonmod.sweet_berries_juice": "Сок из сладких ягод",
@@ -26,8 +26,8 @@
   "block.wekkonmod.orange_proxium_ore": "Руда Оранжевого Проксия",
   "block.wekkonmod.red_proxium_block": "Блок из Красного Проксия",
   "block.wekkonmod.red_proxium_ore": "Руда Красного Проксия",
-  "block.wekkonmod.pure_proxium_block": "Блок из Чистого Проксия",
-  "block.wekkonmod.decorated_pure_proxium_block": "Украшенный Блок из Чистого Проксия",
+  "block.wekkonmod.pure_proxium_block": "§cБлок из Чистого Проксия§r",
+  "block.wekkonmod.decorated_pure_proxium_block": "§cУкрашенный Блок из Чистого Проксия§r",
   "block.wekkonmod.magic_block": "Магический Блок",
 
 

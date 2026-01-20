@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_orange_proxium_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": "wekkonmod:orange_proxium_ore"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:orange_proxium_from_smelting_orange_proxium_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_orange_proxium_ore"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:orange_proxium_from_smelting_orange_proxium_ore"
+    ]
+  }
+}

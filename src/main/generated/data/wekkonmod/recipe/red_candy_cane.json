@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:sweet_berries"
+    },
+    "S": {
+      "item": "minecraft:sugar"
+    }
+  },
+  "pattern": [
+    "SBB",
+    "SS ",
+    "S  "
+  ],
+  "result": {
+    "count": 1,
+    "id": "wekkonmod:red_candy_cane"
+  }
+}

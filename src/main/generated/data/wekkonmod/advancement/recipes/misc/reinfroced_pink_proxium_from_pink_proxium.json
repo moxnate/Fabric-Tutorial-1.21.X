@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_pink_proxium": {
+      "conditions": {
+        "items": [
+          {
+            "items": "wekkonmod:pink_proxium"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "wekkonmod:reinfroced_pink_proxium_from_pink_proxium"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_pink_proxium"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "wekkonmod:reinfroced_pink_proxium_from_pink_proxium"
+    ]
+  }
+}

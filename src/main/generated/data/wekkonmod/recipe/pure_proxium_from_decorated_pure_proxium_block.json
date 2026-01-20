@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "wekkonmod:decorated_pure_proxium_block"
+    }
+  ],
+  "result": {
+    "count": 7,
+    "id": "wekkonmod:pure_proxium"
+  }
+}

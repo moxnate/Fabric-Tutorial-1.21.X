@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "wekkonmod:red_proxium_block"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "id": "wekkonmod:red_proxium"
+  }
+}

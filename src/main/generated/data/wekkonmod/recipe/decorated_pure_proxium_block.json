@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "wekkonmod:pure_proxium_block"
+    },
+    "C": {
+      "item": "wekkonmod:chisel"
+    }
+  },
+  "pattern": [
+    "  ",
+    "CB"
+  ],
+  "result": {
+    "count": 1,
+    "id": "wekkonmod:decorated_pure_proxium_block"
+  }
+}

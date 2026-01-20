@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "wekkonmod:decorated_pure_proxium_block"
+    },
+    "P": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "pattern": [
+    "PPP",
+    "PDP",
+    "PPP"
+  ],
+  "result": {
+    "count": 1,
+    "id": "wekkonmod:magic_block"
+  }
+}

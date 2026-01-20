@@ -42,6 +42,7 @@ public class MagicBlock extends Block {
                 itemEntity.setStack(new ItemStack(Items.NETHERITE_INGOT, itemEntity.getStack().getCount()));
 
             }
+
             if(isValidItemOne(itemEntity.getStack())) {
                 itemEntity.setStack(new ItemStack(Items.NETHERITE_BLOCK, itemEntity.getStack().getCount()));
 
@@ -55,6 +56,7 @@ public class MagicBlock extends Block {
     private boolean isValidItemOne(ItemStack stack) {
         return stack.isIn(ModTags.Items.TRANSFORMABLE_ITEMS_ONE);
     }
+
 
     private boolean isValidItem(ItemStack stack) {
         return stack.isIn(ModTags.Items.TRANSFORMABLE_ITEMS);

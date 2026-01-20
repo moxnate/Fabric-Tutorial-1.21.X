@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.15,
+  "group": "yellow_prxoium",
+  "ingredient": {
+    "item": "wekkonmod:raw_yellow_proxium"
+  },
+  "result": {
+    "id": "wekkonmod:yellow_proxium"
+  }
+}

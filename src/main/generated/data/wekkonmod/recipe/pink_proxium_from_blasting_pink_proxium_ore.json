@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.5,
+  "group": "pink_prxoium",
+  "ingredient": {
+    "item": "wekkonmod:pink_proxium_ore"
+  },
+  "result": {
+    "id": "wekkonmod:pink_proxium"
+  }
+}
