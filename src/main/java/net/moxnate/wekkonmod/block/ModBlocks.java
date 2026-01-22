@@ -1,9 +1,7 @@
 package net.moxnate.wekkonmod.block;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.minecraft.block.AbstractBlock;
-import net.minecraft.block.Block;
-import net.minecraft.block.ExperienceDroppingBlock;
+import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
@@ -23,6 +21,29 @@ public class ModBlocks {
     public static final Block PINK_PROXIUM_ORE = registerBlock("pink_proxium_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(8, 16),
                     AbstractBlock.Settings.create().strength(3f).requiresTool()));
+
+    public static final Block PINK_PROXIUM_STAIRS = registerBlock("pink_proxium_stairs",
+            new StairsBlock(ModBlocks.PINK_PROXIUM_BLOCK.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(2f).requiresTool()));
+    public static final Block PINK_PROXIUM_SLAB = registerBlock("pink_proxium_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+
+    public static final Block PINK_PROXIUM_BUTTON = registerBlock("pink_proxium_button",
+            new ButtonBlock(BlockSetType.IRON, 2, AbstractBlock.Settings.create().strength(2f).requiresTool().noCollision()));
+    public static final Block PINK_PROXIUM_PRESSURE_PLATE = registerBlock("pink_proxium_pressure_plate",
+            new PressurePlateBlock(BlockSetType.IRON, AbstractBlock.Settings.create().strength(2f).requiresTool()));
+
+    public static final Block PINK_PROXIUM_FENCE = registerBlock("pink_proxium_fence",
+            new FenceBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+    public static final Block PINK_PROXIUM_FENCE_GATE = registerBlock("pink_proxium_fence_gate",
+            new FenceGateBlock(WoodType.ACACIA, AbstractBlock.Settings.create().strength(2f).requiresTool()));
+    public static final Block PINK_PROXIUM_WALL = registerBlock("pink_proxium_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+
+    public static final Block PINK_PROXIUM_DOOR = registerBlock("pink_proxium_door",
+            new DoorBlock(BlockSetType.IRON, AbstractBlock.Settings.create().strength(2f).requiresTool().nonOpaque()));
+    public static final Block PINK_PROXIUM_TRAPDOOR = registerBlock("pink_proxium_trapdoor",
+            new TrapdoorBlock(BlockSetType.IRON, AbstractBlock.Settings.create().strength(2f).requiresTool().nonOpaque()));
 
 
     public static final Block YELLOW_PROXIUM_BLOCK = registerBlock("yellow_proxium_block",

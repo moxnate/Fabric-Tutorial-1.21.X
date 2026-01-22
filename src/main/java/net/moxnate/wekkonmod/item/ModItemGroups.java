@@ -49,6 +49,25 @@ public class ModItemGroups {
                       entries.add(ModBlocks.DECORATED_PURE_PROXIUM_BLOCK);
                     }).build());
 
+    public static final ItemGroup PROXIUM_NONBLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(WekkonMod.MOD_ID, "proxium_nonblocks"),
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModBlocks.PINK_PROXIUM_DOOR))
+                    .displayName(Text.translatable("itemgroup.wekkonmod.proxium_nonblocks"))
+                    .entries((displayContext, entries) -> {
+                      entries.add(ModBlocks.PINK_PROXIUM_DOOR);
+                      entries.add(ModBlocks.PINK_PROXIUM_TRAPDOOR);
+
+                      entries.add(ModBlocks.PINK_PROXIUM_FENCE);
+                      entries.add(ModBlocks.PINK_PROXIUM_FENCE_GATE);
+                      entries.add(ModBlocks.PINK_PROXIUM_WALL);
+
+                      entries.add(ModBlocks.PINK_PROXIUM_PRESSURE_PLATE);
+                      entries.add(ModBlocks.PINK_PROXIUM_BUTTON);
+
+                      entries.add(ModBlocks.PINK_PROXIUM_SLAB);
+                      entries.add(ModBlocks.PINK_PROXIUM_STAIRS);
+                    }).build());
+
     public static final ItemGroup OTHER_WEKKON_ITEMS = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(WekkonMod.MOD_ID, "other_wekkon_items"),
             FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.CHISEL))

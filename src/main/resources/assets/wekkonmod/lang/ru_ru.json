@@ -30,6 +30,19 @@
   "block.wekkonmod.decorated_pure_proxium_block": "§cУкрашенный Блок из Чистого Проксия§r",
   "block.wekkonmod.magic_block": "Магический Блок",
 
+  "block.wekkonmod.pink_proxium_door": "Дверь из Розового Проксия",
+  "block.wekkonmod.pink_proxium_trapdoor": "Люк из Розового Проксия",
+
+  "block.wekkonmod.pink_proxium_fence": "Забор из Розового Проксия",
+  "block.wekkonmod.pink_proxium_fence_gate": "Калитка из Розового Проксия",
+  "block.wekkonmod.pink_proxium_wall": "Стена из Розового Проксия",
+
+  "block.wekkonmod.pink_proxium_pressure_plate": "Нажимная плита из Розового Проксия",
+  "block.wekkonmod.pink_proxium_button": "Кнопка из Розового Проксия",
+
+  "block.wekkonmod.pink_proxium_slab": "Полублок из Розового Проксия",
+  "block.wekkonmod.pink_proxium_stairs": "Забор из Розового Проксия",
+
 
   "itemgroup.wekkonmod.proxium_crystals": "Кристаллы Проксия",
   "itemgroup.wekkonmod.proxium_blocks": "Блоки Проксия",

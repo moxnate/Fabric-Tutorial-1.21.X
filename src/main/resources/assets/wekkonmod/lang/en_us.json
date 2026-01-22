@@ -29,6 +29,20 @@
   "block.wekkonmod.decorated_pure_proxium_block": "§cDecorated Block of Pure Proxium§r",
   "block.wekkonmod.magic_block": "Magic Block",
 
+  "block.wekkonmod.pink_proxium_door": "Pink Proxium Door",
+  "block.wekkonmod.pink_proxium_trapdoor": "Pink Proxium Trapdoor",
+
+  "block.wekkonmod.pink_proxium_fence": "Pink Proxium Fence",
+  "block.wekkonmod.pink_proxium_fence_gate": "Pink Proxium Fence Gate",
+  "block.wekkonmod.pink_proxium_wall": "Pink Proxium Wall",
+
+  "block.wekkonmod.pink_proxium_pressure_plate": "Pink Proxium Pressure Plate",
+  "block.wekkonmod.pink_proxium_button": "Pink Proxium Button",
+
+  "block.wekkonmod.pink_proxium_slab": "Pink Proxium Slab",
+  "block.wekkonmod.pink_proxium_stairs": "Pink Proxium Stairs",
+
+
   "itemgroup.wekkonmod.proxium_crystals": "Proxium Crystals",
   "itemgroup.wekkonmod.proxium_blocks": "Proxium Blocks",
   "itemgroup.wekkonmod.other_wekkon_items": "Other Wekkon Items",
