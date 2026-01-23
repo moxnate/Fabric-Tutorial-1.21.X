@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_fence_gate",
+  "textures": {
+    "texture": "wekkonmod:block/pink_proxium_block"
+  }
+}

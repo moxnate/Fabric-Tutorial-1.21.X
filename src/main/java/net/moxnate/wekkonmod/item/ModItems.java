@@ -23,13 +23,6 @@ public class ModItems {
     public static final Item RAW_ORANGE_PROXIUM = registerItem("raw_orange_proxium", new Item(new Item.Settings()));
     public static final Item REINFORCED_ORANGE_PROXIUM = registerItem("reinforced_orange_proxium", new Item(new Item.Settings()));
 
-    public static final Item YELLOW_PROXIUM = registerItem("yellow_proxium", new Item(new Item.Settings()));
-    public static final Item RAW_YELLOW_PROXIUM = registerItem("raw_yellow_proxium", new Item(new Item.Settings()));
-    public static final Item REINFORCED_YELLOW_PROXIUM = registerItem("reinforced_yellow_proxium", new Item(new Item.Settings()));
-
-    public static final Item RED_PROXIUM = registerItem("red_proxium", new Item(new Item.Settings()));
-    public static final Item RAW_RED_PROXIUM = registerItem("raw_red_proxium", new Item(new Item.Settings()));
-    public static final Item REINFORCED_RED_PROXIUM = registerItem("reinforced_red_proxium", new Item(new Item.Settings()));
 
     public static final Item PURE_PROXIUM = registerItem("pure_proxium", new Item(new Item.Settings()));
 

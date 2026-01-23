@@ -22,12 +22,6 @@ public class ModItemGroups {
                       entries.add(ModItems.ORANGE_PROXIUM);
                       entries.add(ModItems.REINFORCED_ORANGE_PROXIUM);
                       entries.add(ModItems.RAW_ORANGE_PROXIUM);
-                      entries.add(ModItems.YELLOW_PROXIUM);
-                      entries.add(ModItems.REINFORCED_YELLOW_PROXIUM);
-                      entries.add(ModItems.RAW_YELLOW_PROXIUM);
-                      entries.add(ModItems.RED_PROXIUM);
-                      entries.add(ModItems.REINFORCED_RED_PROXIUM);
-                      entries.add(ModItems.RAW_RED_PROXIUM);
                       entries.add(ModItems.PURE_PROXIUM);
 
                     }).build());
@@ -41,10 +35,6 @@ public class ModItemGroups {
                       entries.add(ModBlocks.PINK_PROXIUM_ORE);
                       entries.add(ModBlocks.ORANGE_PROXIUM_BLOCK);
                       entries.add(ModBlocks.ORANGE_PROXIUM_ORE);
-                      entries.add(ModBlocks.YELLOW_PROXIUM_BLOCK);
-                      entries.add(ModBlocks.YELLOW_PROXIUM_ORE);
-                      entries.add(ModBlocks.RED_PROXIUM_BLOCK);
-                      entries.add(ModBlocks.RED_PROXIUM_ORE);
                       entries.add(ModBlocks.PURE_PROXIUM_BLOCK);
                       entries.add(ModBlocks.DECORATED_PURE_PROXIUM_BLOCK);
                     }).build());

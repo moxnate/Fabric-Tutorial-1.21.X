@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button",
+  "textures": {
+    "texture": "wekkonmod:block/pink_proxium_block"
+  }
+}

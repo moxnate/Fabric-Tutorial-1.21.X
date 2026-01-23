@@ -16,23 +16,30 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PINK_PROXIUM_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool pinkProxiumPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.PINK_PROXIUM_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PINK_PROXIUM_ORE);
 
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ORANGE_PROXIUM_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ORANGE_PROXIUM_ORE);
 
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.YELLOW_PROXIUM_BLOCK);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.YELLOW_PROXIUM_ORE);
-
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RED_PROXIUM_BLOCK);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RED_PROXIUM_ORE);
 
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PURE_PROXIUM_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DECORATED_PURE_PROXIUM_BLOCK);
 
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MAGIC_BLOCK);
 
+        pinkProxiumPool.stairs(ModBlocks.PINK_PROXIUM_STAIRS);
+        pinkProxiumPool.slab(ModBlocks.PINK_PROXIUM_SLAB);
+
+        pinkProxiumPool.button(ModBlocks.PINK_PROXIUM_BUTTON);
+        pinkProxiumPool.pressurePlate(ModBlocks.PINK_PROXIUM_PRESSURE_PLATE);
+
+        pinkProxiumPool.wall(ModBlocks.PINK_PROXIUM_WALL);
+        pinkProxiumPool.fence(ModBlocks.PINK_PROXIUM_FENCE);
+        pinkProxiumPool.fenceGate(ModBlocks.PINK_PROXIUM_FENCE_GATE);
+
+        blockStateModelGenerator.registerDoor(ModBlocks.PINK_PROXIUM_DOOR);
+        blockStateModelGenerator.registerTrapdoor(ModBlocks.PINK_PROXIUM_TRAPDOOR);
     }
 
     @Override
@@ -45,13 +52,6 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.RAW_ORANGE_PROXIUM, Models.GENERATED);
         itemModelGenerator.register(ModItems.REINFORCED_ORANGE_PROXIUM, Models.GENERATED);
 
-        itemModelGenerator.register(ModItems.YELLOW_PROXIUM, Models.GENERATED);
-        itemModelGenerator.register(ModItems.RAW_YELLOW_PROXIUM, Models.GENERATED);
-        itemModelGenerator.register(ModItems.REINFORCED_YELLOW_PROXIUM, Models.GENERATED);
-
-        itemModelGenerator.register(ModItems.RED_PROXIUM, Models.GENERATED);
-        itemModelGenerator.register(ModItems.RAW_RED_PROXIUM, Models.GENERATED);
-        itemModelGenerator.register(ModItems.REINFORCED_RED_PROXIUM, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.PURE_PROXIUM, Models.GENERATED);
 

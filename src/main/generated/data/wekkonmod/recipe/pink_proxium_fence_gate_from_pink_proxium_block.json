@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "P": {
+      "item": "wekkonmod:pink_proxium_block"
+    }
+  },
+  "pattern": [
+    "   ",
+    "P P",
+    "P P"
+  ],
+  "result": {
+    "count": 16,
+    "id": "wekkonmod:pink_proxium_fence_gate"
+  }
+}

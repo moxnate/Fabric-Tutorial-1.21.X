@@ -5,8 +5,10 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.data.server.recipe.RecipeExporter;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder;
+import net.minecraft.data.server.recipe.StonecuttingRecipeJsonBuilder;
 import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Items;
+import net.minecraft.recipe.Ingredient;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.util.Identifier;
@@ -41,6 +43,87 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .pattern("PPP")
                 .criterion(hasItem(ModItems.PINK_PROXIUM), conditionsFromItem(ModItems.PINK_PROXIUM))
                 .offerTo(recipeExporter, Identifier.of(WekkonMod.MOD_ID, "reinfroced_pink_proxium_from_pink_proxium"));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.PINK_PROXIUM_DOOR, 2)
+                .input('P', ModItems.REINFORCED_PINK_PROXIUM)
+                .pattern("PP ")
+                .pattern("PP ")
+                .pattern("PP ")
+                .criterion(hasItem(ModItems.REINFORCED_PINK_PROXIUM), conditionsFromItem(ModItems.REINFORCED_PINK_PROXIUM))
+                .offerTo(recipeExporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.PINK_PROXIUM_TRAPDOOR)
+                .input('P', ModItems.REINFORCED_PINK_PROXIUM)
+                .pattern("   ")
+                .pattern("PPP")
+                .pattern("PPP")
+                .criterion(hasItem(ModItems.REINFORCED_PINK_PROXIUM), conditionsFromItem(ModItems.REINFORCED_PINK_PROXIUM))
+                .offerTo(recipeExporter);
+        StonecuttingRecipeJsonBuilder.createStonecutting(Ingredient.ofItems(ModBlocks.PINK_PROXIUM_BLOCK), RecipeCategory.MISC,
+                ModBlocks.PINK_PROXIUM_FENCE, 8)
+                        .criterion(hasItem(ModBlocks.PINK_PROXIUM_BLOCK), conditionsFromItem(ModBlocks.PINK_PROXIUM_BLOCK))
+                        .offerTo(recipeExporter, convertBetween(ModBlocks.PINK_PROXIUM_FENCE, ModBlocks.PINK_PROXIUM_BLOCK) + "_stonecutting");
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.PINK_PROXIUM_FENCE, 16)
+                .input('P', ModBlocks.PINK_PROXIUM_BLOCK)
+                .pattern("   ")
+                .pattern("PPP")
+                .pattern("P P")
+                .criterion(hasItem(ModBlocks.PINK_PROXIUM_BLOCK), conditionsFromItem(ModBlocks.PINK_PROXIUM_BLOCK))
+                .offerTo(recipeExporter, Identifier.of("pink_proxium_fence_from_pink_proxium_block"));
+        StonecuttingRecipeJsonBuilder.createStonecutting(Ingredient.ofItems(ModBlocks.PINK_PROXIUM_BLOCK), RecipeCategory.MISC,
+                        ModBlocks.PINK_PROXIUM_FENCE_GATE, 8)
+                .criterion(hasItem(ModBlocks.PINK_PROXIUM_BLOCK), conditionsFromItem(ModBlocks.PINK_PROXIUM_BLOCK))
+                .offerTo(recipeExporter, convertBetween(ModBlocks.PINK_PROXIUM_FENCE_GATE, ModBlocks.PINK_PROXIUM_BLOCK) + "_stonecutting");
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.PINK_PROXIUM_FENCE_GATE, 16)
+                .input('P', ModBlocks.PINK_PROXIUM_BLOCK)
+                .pattern("   ")
+                .pattern("P P")
+                .pattern("P P")
+                .criterion(hasItem(ModBlocks.PINK_PROXIUM_BLOCK), conditionsFromItem(ModBlocks.PINK_PROXIUM_BLOCK))
+                .offerTo(recipeExporter, Identifier.of("pink_proxium_fence_gate_from_pink_proxium_block"));
+        StonecuttingRecipeJsonBuilder.createStonecutting(Ingredient.ofItems(ModBlocks.PINK_PROXIUM_BLOCK), RecipeCategory.MISC,
+                        ModBlocks.PINK_PROXIUM_WALL, 8)
+                .criterion(hasItem(ModBlocks.PINK_PROXIUM_BLOCK), conditionsFromItem(ModBlocks.PINK_PROXIUM_BLOCK))
+                .offerTo(recipeExporter, convertBetween(ModBlocks.PINK_PROXIUM_WALL, ModBlocks.PINK_PROXIUM_BLOCK) + "_stonecutting");
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.PINK_PROXIUM_WALL, 16)
+                .input('B', ModBlocks.PINK_PROXIUM_BLOCK)
+                .pattern("   ")
+                .pattern("BBB")
+                .pattern("BBB")
+                .criterion(hasItem(ModBlocks.PINK_PROXIUM_BLOCK), conditionsFromItem(ModBlocks.PINK_PROXIUM_BLOCK))
+                .offerTo(recipeExporter, Identifier.of("pink_proxium_wall_from_pink_proxium_block"));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.PINK_PROXIUM_PRESSURE_PLATE)
+                .input('P', ModItems.REINFORCED_PINK_PROXIUM)
+                .pattern("  ")
+                .pattern("PP")
+                .criterion(hasItem(ModItems.REINFORCED_PINK_PROXIUM), conditionsFromItem(ModItems.REINFORCED_PINK_PROXIUM))
+                .offerTo(recipeExporter);
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.PINK_PROXIUM_BUTTON, 4)
+                .input(ModItems.REINFORCED_PINK_PROXIUM)
+                .criterion(hasItem(ModItems.REINFORCED_PINK_PROXIUM), conditionsFromItem(ModItems.REINFORCED_PINK_PROXIUM))
+                .offerTo(recipeExporter);
+        StonecuttingRecipeJsonBuilder.createStonecutting(Ingredient.ofItems(ModBlocks.PINK_PROXIUM_BLOCK), RecipeCategory.MISC,
+                        ModBlocks.PINK_PROXIUM_SLAB, 4)
+                .criterion(hasItem(ModBlocks.PINK_PROXIUM_BLOCK), conditionsFromItem(ModBlocks.PINK_PROXIUM_BLOCK))
+                .offerTo(recipeExporter, convertBetween(ModBlocks.PINK_PROXIUM_SLAB, ModBlocks.PINK_PROXIUM_BLOCK) + "_stonecutting");
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.PINK_PROXIUM_SLAB, 8)
+                .input('P', ModBlocks.PINK_PROXIUM_BLOCK)
+                .pattern("   ")
+                .pattern("   ")
+                .pattern("PPP")
+                .criterion(hasItem(ModBlocks.PINK_PROXIUM_BLOCK), conditionsFromItem(ModBlocks.PINK_PROXIUM_BLOCK))
+                .offerTo(recipeExporter, Identifier.of("pink_proxium_slab_from_pink_proxium_block"));
+        StonecuttingRecipeJsonBuilder.createStonecutting(Ingredient.ofItems(ModBlocks.PINK_PROXIUM_BLOCK), RecipeCategory.MISC,
+                        ModBlocks.PINK_PROXIUM_STAIRS, 16)
+                .criterion(hasItem(ModBlocks.PINK_PROXIUM_BLOCK), conditionsFromItem(ModBlocks.PINK_PROXIUM_BLOCK))
+                .offerTo(recipeExporter, convertBetween(ModBlocks.PINK_PROXIUM_STAIRS, ModBlocks.PINK_PROXIUM_BLOCK) + "_stonecutting");
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.PINK_PROXIUM_STAIRS, 32)
+                .input('P', ModBlocks.PINK_PROXIUM_BLOCK)
+                .pattern("P  ")
+                .pattern("PP ")
+                .pattern("PPP")
+                .criterion(hasItem(ModBlocks.PINK_PROXIUM_BLOCK), conditionsFromItem(ModBlocks.PINK_PROXIUM_BLOCK))
+                .offerTo(recipeExporter, Identifier.of("pink_proxium_stairs_from_pink_proxium_block"));
+
+
 
 
         List<ItemConvertible> ORANGE_PROXIUM_SMELTABLES = List.of(ModItems.RAW_ORANGE_PROXIUM, ModBlocks.ORANGE_PROXIUM_ORE);
@@ -65,54 +148,13 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .offerTo(recipeExporter, Identifier.of(WekkonMod.MOD_ID, "reinforged_orange_proxium_from_orange_proxium"));
 
 
-        List<ItemConvertible> YELLOW_PROXIUM_SMELTABLES = List.of(ModItems.RAW_YELLOW_PROXIUM, ModBlocks.YELLOW_PROXIUM_ORE);
-        offerSmelting(recipeExporter, YELLOW_PROXIUM_SMELTABLES, RecipeCategory.MISC, ModItems.YELLOW_PROXIUM, 0.15f, 200, "yellow_prxoium");
-        offerBlasting(recipeExporter, YELLOW_PROXIUM_SMELTABLES, RecipeCategory.MISC, ModItems.YELLOW_PROXIUM, 0.15f, 100, "yellow_prxoium");
-        offerReversibleCompactingRecipes(recipeExporter, RecipeCategory.BUILDING_BLOCKS, ModItems.YELLOW_PROXIUM, RecipeCategory.DECORATIONS,
-                ModBlocks.YELLOW_PROXIUM_BLOCK);
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.REINFORCED_YELLOW_PROXIUM)
-                .input('P', ModItems.YELLOW_PROXIUM)
-                .pattern("   ")
-                .pattern("PPP")
-                .pattern("PPP")
-                .criterion(hasItem(ModItems.YELLOW_PROXIUM), conditionsFromItem(ModItems.YELLOW_PROXIUM))
-                .offerTo(recipeExporter);
-        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.YELLOW_PROXIUM, 9)
-                .input(ModBlocks.YELLOW_PROXIUM_BLOCK);
-
-
-        List<ItemConvertible> RED_PROXIUM_SMELTABLES = List.of(ModItems.RAW_RED_PROXIUM, ModBlocks.RED_PROXIUM_ORE);
-        offerSmelting(recipeExporter, RED_PROXIUM_SMELTABLES, RecipeCategory.MISC, ModItems.RED_PROXIUM, 0.05f, 200, "red_prxoium");
-        offerBlasting(recipeExporter, RED_PROXIUM_SMELTABLES, RecipeCategory.MISC, ModItems.RED_PROXIUM, 0.05f, 100, "red_prxoium");
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.RED_PROXIUM_BLOCK)
-                .input('B', ModItems.RED_PROXIUM)
-                .pattern("BB")
-                .pattern("BB")
-                .criterion(hasItem(ModItems.RED_PROXIUM), conditionsFromItem(ModItems.RED_PROXIUM))
-                .offerTo(recipeExporter);
-        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.RED_PROXIUM, 4)
-                .input(ModBlocks.RED_PROXIUM_BLOCK)
-                .criterion(hasItem(ModBlocks.RED_PROXIUM_BLOCK), conditionsFromItem(ModBlocks.RED_PROXIUM_BLOCK))
-                .offerTo(recipeExporter);
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.REINFORCED_RED_PROXIUM)
-                .input('P', ModItems.RED_PROXIUM)
-                .pattern("  ")
-                .pattern("PP")
-                .criterion(hasItem(ModItems.RED_PROXIUM), conditionsFromItem(ModItems.RED_PROXIUM))
-                .offerTo(recipeExporter);
-
-
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.PURE_PROXIUM)
                 .input('P', ModItems.REINFORCED_PINK_PROXIUM)
                 .input('O', ModItems.REINFORCED_ORANGE_PROXIUM)
-                .input('Y', ModItems.REINFORCED_YELLOW_PROXIUM)
-                .input('R', ModItems.REINFORCED_RED_PROXIUM)
                 .pattern("PO")
-                .pattern("YR")
+                .pattern("PO")
                 .criterion(hasItem(ModItems.REINFORCED_PINK_PROXIUM), conditionsFromItem(ModItems.REINFORCED_PINK_PROXIUM))
                 .criterion(hasItem(ModItems.REINFORCED_ORANGE_PROXIUM), conditionsFromItem(ModItems.REINFORCED_ORANGE_PROXIUM))
-                .criterion(hasItem(ModItems.REINFORCED_YELLOW_PROXIUM), conditionsFromItem(ModItems.REINFORCED_YELLOW_PROXIUM))
-                .criterion(hasItem(ModItems.REINFORCED_RED_PROXIUM), conditionsFromItem(ModItems.REINFORCED_RED_PROXIUM))
                 .offerTo(recipeExporter);
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.PURE_PROXIUM_BLOCK)
                 .input('P', ModItems.PURE_PROXIUM)

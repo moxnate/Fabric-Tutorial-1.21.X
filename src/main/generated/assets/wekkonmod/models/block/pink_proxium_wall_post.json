@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_wall_post",
+  "textures": {
+    "wall": "wekkonmod:block/pink_proxium_block"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "P": {
+      "item": "wekkonmod:reinforced_pink_proxium"
+    }
+  },
+  "pattern": [
+    "  ",
+    "PP"
+  ],
+  "result": {
+    "count": 1,
+    "id": "wekkonmod:pink_proxium_pressure_plate"
+  }
+}

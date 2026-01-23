@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "wekkonmod:pink_proxium_block"
+  },
+  "result": {
+    "count": 16,
+    "id": "wekkonmod:pink_proxium_stairs"
+  }
+}

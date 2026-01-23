@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_reinforced_pink_proxium": {
+      "conditions": {
+        "items": [
+          {
+            "items": "wekkonmod:reinforced_pink_proxium"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "wekkonmod:pink_proxium_pressure_plate"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_reinforced_pink_proxium"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "wekkonmod:pink_proxium_pressure_plate"
+    ]
+  }
+}

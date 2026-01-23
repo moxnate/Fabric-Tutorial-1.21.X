@@ -46,15 +46,6 @@ public class ModBlocks {
             new TrapdoorBlock(BlockSetType.IRON, AbstractBlock.Settings.create().strength(2f).requiresTool().nonOpaque()));
 
 
-    public static final Block YELLOW_PROXIUM_BLOCK = registerBlock("yellow_proxium_block",
-            new Block(AbstractBlock.Settings.create().strength(4f)
-                    .requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
-
-    public static final Block YELLOW_PROXIUM_ORE = registerBlock("yellow_proxium_ore",
-            new ExperienceDroppingBlock(UniformIntProvider.create(4, 6),
-                    AbstractBlock.Settings.create().strength(5f).requiresTool()));
-
-
     public static final Block ORANGE_PROXIUM_BLOCK = registerBlock("orange_proxium_block",
             new Block(AbstractBlock.Settings.create().strength(3f)
                     .requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
@@ -62,15 +53,6 @@ public class ModBlocks {
     public static final Block ORANGE_PROXIUM_ORE = registerBlock("orange_proxium_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(6, 8),
                     AbstractBlock.Settings.create().strength(4f).requiresTool()));
-
-
-    public static final Block RED_PROXIUM_BLOCK = registerBlock("red_proxium_block",
-            new Block(AbstractBlock.Settings.create().strength(5f)
-                    .requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
-
-    public static final Block RED_PROXIUM_ORE = registerBlock("red_proxium_ore",
-            new ExperienceDroppingBlock(UniformIntProvider.create(2, 4),
-                    AbstractBlock.Settings.create().strength(6f).requiresTool()));
 
 
     public static final Block PURE_PROXIUM_BLOCK = registerBlock("pure_proxium_block",

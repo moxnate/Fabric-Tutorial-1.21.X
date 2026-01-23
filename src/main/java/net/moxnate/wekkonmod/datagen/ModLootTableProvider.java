@@ -31,15 +31,24 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.MAGIC_BLOCK);
         addDrop(ModBlocks.PINK_PROXIUM_BLOCK);
         addDrop(ModBlocks.ORANGE_PROXIUM_BLOCK);
-        addDrop(ModBlocks.YELLOW_PROXIUM_BLOCK);
-        addDrop(ModBlocks.RED_PROXIUM_BLOCK);
         addDrop(ModBlocks.PURE_PROXIUM_BLOCK);
         addDrop(ModBlocks.DECORATED_PURE_PROXIUM_BLOCK);
 
         addDrop(ModBlocks.PINK_PROXIUM_ORE, multipleOreDrops(ModBlocks.PINK_PROXIUM_ORE, ModItems.RAW_PINK_PROXIUM, 3, 6));
         addDrop(ModBlocks.ORANGE_PROXIUM_ORE, multipleOreDrops(ModBlocks.ORANGE_PROXIUM_ORE, ModItems.RAW_ORANGE_PROXIUM, 4, 7));
-        addDrop(ModBlocks.YELLOW_PROXIUM_ORE, multipleOreDrops(ModBlocks.YELLOW_PROXIUM_ORE, ModItems.RAW_YELLOW_PROXIUM, 5, 8));
-        addDrop(ModBlocks.RED_PROXIUM_ORE, multipleOreDrops(ModBlocks.RED_PROXIUM_ORE, ModItems.RAW_RED_PROXIUM, 6, 9));
+
+        addDrop(ModBlocks.PINK_PROXIUM_STAIRS);
+        addDrop(ModBlocks.PINK_PROXIUM_SLAB, slabDrops(ModBlocks.PINK_PROXIUM_SLAB));
+
+        addDrop(ModBlocks.PINK_PROXIUM_BUTTON);
+        addDrop(ModBlocks.PINK_PROXIUM_PRESSURE_PLATE);
+
+        addDrop(ModBlocks.PINK_PROXIUM_WALL);
+        addDrop(ModBlocks.PINK_PROXIUM_FENCE);
+        addDrop(ModBlocks.PINK_PROXIUM_FENCE_GATE);
+
+        addDrop(ModBlocks.PINK_PROXIUM_DOOR, doorDrops(ModBlocks.PINK_PROXIUM_DOOR));
+        addDrop(ModBlocks.PINK_PROXIUM_TRAPDOOR);
 
 
 

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_side",
+  "textures": {
+    "texture": "wekkonmod:block/pink_proxium_block"
+  }
+}

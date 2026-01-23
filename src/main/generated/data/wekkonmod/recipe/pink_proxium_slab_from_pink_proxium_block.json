@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "P": {
+      "item": "wekkonmod:pink_proxium_block"
+    }
+  },
+  "pattern": [
+    "   ",
+    "   ",
+    "PPP"
+  ],
+  "result": {
+    "count": 8,
+    "id": "wekkonmod:pink_proxium_slab"
+  }
+}

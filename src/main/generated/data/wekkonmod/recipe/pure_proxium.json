@@ -7,17 +7,11 @@
     },
     "P": {
       "item": "wekkonmod:reinforced_pink_proxium"
-    },
-    "R": {
-      "item": "wekkonmod:reinforced_red_proxium"
-    },
-    "Y": {
-      "item": "wekkonmod:reinforced_yellow_proxium"
     }
   },
   "pattern": [
     "PO",
-    "YR"
+    "PO"
   ],
   "result": {
     "count": 1,
