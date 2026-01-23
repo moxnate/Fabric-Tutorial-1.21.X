@@ -48,5 +48,6 @@
   "tooltip.wekkonmod.chisel.shift_down.1": "Click §cRMB§r on the §cDIRT§r with chisel in main hand to turn it into the §aGRASS BLOCK§r",
   "tooltip.wekkonmod.chisel": "Press §eSHIFT§r for more information",
   "tooltip.wekkonmod.red_candy_cane": "That is very §6awesome§r and §6tasty§r snack,",
-  "tooltip.wekkonmod.red_candy_cane.1": "but you may feel a §5little short-lived weakness after you eat it§r"
+  "tooltip.wekkonmod.red_candy_cane.1": "but you may feel a §5little short-lived weakness after you eat it§r",
+  "coordinates.tooltip": "Last block changed at "
 }

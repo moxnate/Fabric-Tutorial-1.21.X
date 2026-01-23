@@ -3,6 +3,7 @@ package net.moxnate.wekkonmod.item.custom;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.client.gui.screen.Screen;
+import net.minecraft.component.DataComponentTypes;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.Equipment;
 import net.minecraft.item.Item;
@@ -18,6 +19,7 @@ import net.minecraft.text.Text;
 import net.minecraft.util.ActionResult;
 import net.minecraft.world.World;
 import net.moxnate.wekkonmod.block.ModBlocks;
+import net.moxnate.wekkonmod.component.ModDataComponentTypes;
 
 import java.util.List;
 import java.util.Map;
@@ -47,6 +49,8 @@ public class ChiselItem extends Item {
 
                 world.playSound(null, context.getBlockPos(), SoundEvents.BLOCK_GRINDSTONE_USE, SoundCategory.BLOCKS);
 
+                context.getStack().set(ModDataComponentTypes.COORDINATES, context.getBlockPos());
+
             }
 
         }
@@ -61,6 +65,10 @@ public class ChiselItem extends Item {
             tooltip.add(Text.translatable("tooltip.wekkonmod.chisel.shift_down.1"));
         } else {
             tooltip.add(Text.translatable("tooltip.wekkonmod.chisel"));
+        }
+
+        if(stack.get(ModDataComponentTypes.COORDINATES) != null) {
+            tooltip.add(Text.literal("" + stack.get(ModDataComponentTypes.COORDINATES)));
         }
 
         super.appendTooltip(stack, context, tooltip, type);

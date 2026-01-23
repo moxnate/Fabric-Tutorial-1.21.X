@@ -4,6 +4,7 @@ import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.moxnate.wekkonmod.block.ModBlocks;
+import net.moxnate.wekkonmod.component.ModDataComponentTypes;
 import net.moxnate.wekkonmod.item.ModItemGroups;
 import net.moxnate.wekkonmod.item.ModItems;
 import org.slf4j.Logger;
@@ -19,6 +20,8 @@ public class WekkonMod implements ModInitializer {
 
         ModItems.registerModItems();
         ModBlocks.registerModBlocks();
+
+        ModDataComponentTypes.registerDataComponentTypes();
 
         FuelRegistry.INSTANCE.add(ModItems.BURNING_STAR, 6400);
         FuelRegistry.INSTANCE.add(ModItems.PURE_PROXIUM, 20_000);

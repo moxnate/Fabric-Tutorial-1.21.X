@@ -6,7 +6,7 @@
   "item.wekkonmod.raw_orange_proxium": "Неочищенный Оранжевый Проксий",
   "item.wekkonmod.reinforced_orange_proxium": "Укреплённый Оранжевый Проксий",
   "item.wekkonmod.pure_proxium": "§cЧистый Проксий§r",
-  "item.wekkonmod.chisel": "Зубило",
+  "item.wekkonmod.chisel": "Долото",
   "item.wekkonmod.red_candy_cane": "Красная карамель-трость",
   "item.wekkonmod.sweet_berries_juice": "Сок из сладких ягод",
   "item.wekkonmod.burning_star": "§6Горящая звезда",
@@ -49,5 +49,6 @@
   "tooltip.wekkonmod.chisel.shift_down.1": "Нажмите §cПКМ§r по §cЗЕМЛЕ§r с зубилом в главной руке, чтобы превратить её в §aБЛОК ТРАВЫ§r",
   "tooltip.wekkonmod.chisel": "Нажмите §eSHIFT§r для большей информации",
   "tooltip.wekkonmod.red_candy_cane": "Это очень §6вкусная§r закуска,",
-  "tooltip.wekkonmod.red_candy_cane.1": "но ты можешь почуствовать §5небольшую слабость после её съедения§r"
+  "tooltip.wekkonmod.red_candy_cane.1": "но ты можешь почуствовать §5небольшую слабость после её съедения§r",
+  "coordinates_tooltip": "Последний изменённый блок на "
 }
