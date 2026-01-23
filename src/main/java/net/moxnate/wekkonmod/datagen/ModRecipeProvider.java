@@ -192,6 +192,16 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.DIAMOND), conditionsFromItem(Items.DIAMOND))
                 .offerTo(recipeExporter);
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.WEKKON_LAMP)
+                .input('R', Items.REDSTONE)
+                .input('P', ModItems.PURE_PROXIUM)
+                .pattern("PRR")
+                .pattern("RPR")
+                .pattern("RRP")
+                .criterion(hasItem(Items.REDSTONE), conditionsFromItem(Items.REDSTONE))
+                .criterion(hasItem(ModItems.PURE_PROXIUM), conditionsFromItem(ModItems.PURE_PROXIUM))
+                .offerTo(recipeExporter);
+
 
 
 

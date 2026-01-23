@@ -73,6 +73,7 @@ public class ModItemGroups {
                     .displayName(Text.translatable("itemgroup.wekkonmod.other_wekkon_blocks"))
                     .entries((displayContext, entries) -> {
                         entries.add(ModBlocks.MAGIC_BLOCK);
+                        entries.add(ModBlocks.WEKKON_LAMP);
                     }).build());
 
     public static final ItemGroup WEKKON_FOOD = Registry.register(Registries.ITEM_GROUP,

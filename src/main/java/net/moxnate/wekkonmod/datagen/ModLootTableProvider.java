@@ -46,6 +46,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.PINK_PROXIUM_WALL);
         addDrop(ModBlocks.PINK_PROXIUM_FENCE);
         addDrop(ModBlocks.PINK_PROXIUM_FENCE_GATE);
+        addDrop(ModBlocks.WEKKON_LAMP);
 
         addDrop(ModBlocks.PINK_PROXIUM_DOOR, doorDrops(ModBlocks.PINK_PROXIUM_DOOR));
         addDrop(ModBlocks.PINK_PROXIUM_TRAPDOOR);

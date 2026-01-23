@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "clicked=false": {
+      "model": "wekkonmod:block/wekkon_lamp"
+    },
+    "clicked=true": {
+      "model": "wekkonmod:block/wekkon_lamp_on"
+    }
+  }
+}

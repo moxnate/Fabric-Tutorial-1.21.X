@@ -1,10 +1,8 @@
 package net.moxnate.wekkonmod.block;
 
-import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
@@ -12,6 +10,7 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.moxnate.wekkonmod.WekkonMod;
 import net.moxnate.wekkonmod.block.custom.MagicBlock;
+import net.moxnate.wekkonmod.block.custom.WekkonLampBlock;
 
 public class ModBlocks {
     public static final Block PINK_PROXIUM_BLOCK = registerBlock("pink_proxium_block",
@@ -67,6 +66,10 @@ public class ModBlocks {
 
     public static final Block MAGIC_BLOCK = registerBlock("magic_block",
             new MagicBlock(AbstractBlock.Settings.create().strength(0f)));
+
+    public static final Block WEKKON_LAMP = registerBlock("wekkon_lamp",
+            new WekkonLampBlock(AbstractBlock.Settings.create()
+                    .strength(1f).luminance(state -> state.get(WekkonLampBlock.CLICKED) ? 15 : 0)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

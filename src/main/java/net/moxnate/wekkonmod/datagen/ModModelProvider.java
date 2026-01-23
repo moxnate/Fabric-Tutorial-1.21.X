@@ -3,10 +3,10 @@ package net.moxnate.wekkonmod.datagen;
 import com.ibm.icu.text.Normalizer2;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
-import net.minecraft.data.client.BlockStateModelGenerator;
-import net.minecraft.data.client.ItemModelGenerator;
-import net.minecraft.data.client.Models;
+import net.minecraft.data.client.*;
+import net.minecraft.util.Identifier;
 import net.moxnate.wekkonmod.block.ModBlocks;
+import net.moxnate.wekkonmod.block.custom.WekkonLampBlock;
 import net.moxnate.wekkonmod.item.ModItems;
 
 public class ModModelProvider extends FabricModelProvider {
@@ -40,6 +40,11 @@ public class ModModelProvider extends FabricModelProvider {
 
         blockStateModelGenerator.registerDoor(ModBlocks.PINK_PROXIUM_DOOR);
         blockStateModelGenerator.registerTrapdoor(ModBlocks.PINK_PROXIUM_TRAPDOOR);
+
+        Identifier lampOffIdentifier = TexturedModel.CUBE_ALL.upload(ModBlocks.WEKKON_LAMP, blockStateModelGenerator.modelCollector);
+        Identifier lampOnIdentifier = blockStateModelGenerator.createSubModel(ModBlocks.WEKKON_LAMP, "_on", Models.CUBE_ALL, TextureMap::all);
+        blockStateModelGenerator.blockStateCollector.accept(VariantsBlockStateSupplier.create(ModBlocks.WEKKON_LAMP)
+                .coordinate(BlockStateModelGenerator.createBooleanModelMap(WekkonLampBlock.CLICKED, lampOnIdentifier, lampOffIdentifier)));
     }
 
     @Override

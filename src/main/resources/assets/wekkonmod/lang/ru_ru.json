@@ -19,6 +19,7 @@
   "block.wekkonmod.pure_proxium_block": "§cБлок из Чистого Проксия§r",
   "block.wekkonmod.decorated_pure_proxium_block": "§cУкрашенный Блок из Чистого Проксия§r",
   "block.wekkonmod.magic_block": "Магический Блок",
+  "block.wekkonmod.wekkon_lamp": "Лампа Веккона",
 
   "block.wekkonmod.pink_proxium_door": "Дверь из Розового Проксия",
   "block.wekkonmod.pink_proxium_trapdoor": "Люк из Розового Проксия",
@@ -36,10 +37,10 @@
 
   "itemgroup.wekkonmod.proxium_crystals": "Кристаллы Проксия",
   "itemgroup.wekkonmod.proxium_blocks": "Блоки Проксия",
-  "itemgroup.wekkonmod.other_wekkon_items": "Другие предметы Wekkon",
-  "itemgroup.wekkonmod.other_wekkon_blocks": "Другие блоки Wekkon",
-  "itemgroup.wekkonmod.wekkon_food": "Еда Wekkon",
-  "itemgroup.wekkonmod.proxium_nonblocks": "Функциональные блоки Wekkon",
+  "itemgroup.wekkonmod.other_wekkon_items": "Другие предметы Веккона",
+  "itemgroup.wekkonmod.other_wekkon_blocks": "Другие блоки Веккона",
+  "itemgroup.wekkonmod.wekkon_food": "Еда Веккона",
+  "itemgroup.wekkonmod.proxium_nonblocks": "Функциональные блоки Веккона",
 
 
   "tooltip.wekkonmod.magic_block.tooltip": "Просто кинь Чистый Проксиум на этот блок и увидишь §6МАГИЮ!",

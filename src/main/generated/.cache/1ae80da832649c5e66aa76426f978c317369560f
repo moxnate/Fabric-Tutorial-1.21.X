@@ -1,8 +1,8 @@
-// 1.21	2026-01-23T19:15:53.0777141	Wekkon Mod/Tags for minecraft:block
+// 1.21	2026-01-23T20:09:34.9345277	Wekkon Mod/Tags for minecraft:block
 3901fa87a794b4b52b3d3aa9ce17cd2df4b8b9dd data\minecraft\tags\block\walls.json
 28a8934af10ee174a04e2b3c7e914d89a32ce030 data\minecraft\tags\block\fences.json
 dc716e14ac31f265b3ca53933216c10e010c04d6 data\minecraft\tags\block\needs_diamond_tool.json
 5bb1b1ed4f50ff8fe92141ee3b981b1cf6b0a487 data\minecraft\tags\block\fence_gates.json
-96f673e9c6acfd896b41349b7b4c57cf9f478487 data\minecraft\tags\block\mineable\pickaxe.json
 ac9186de7e68d1841a3672e2399ee2f95e9bdbe6 data\minecraft\tags\block\needs_stone_tool.json
+96f673e9c6acfd896b41349b7b4c57cf9f478487 data\minecraft\tags\block\mineable\pickaxe.json
 c021a1497af22b4e2d10922dcd6b405a76b05666 data\minecraft\tags\block\needs_iron_tool.json

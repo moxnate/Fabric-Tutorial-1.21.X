@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "P": {
+      "item": "wekkonmod:pure_proxium"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "pattern": [
+    "PRR",
+    "RPR",
+    "RRP"
+  ],
+  "result": {
+    "count": 1,
+    "id": "wekkonmod:wekkon_lamp"
+  }
+}
