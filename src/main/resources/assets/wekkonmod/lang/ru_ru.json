@@ -10,6 +10,16 @@
   "item.wekkonmod.red_candy_cane": "Красная карамель-трость",
   "item.wekkonmod.sweet_berries_juice": "Сок из сладких ягод",
   "item.wekkonmod.burning_star": "§6Горящая звезда",
+  "item.wekkonmod.pink_proxium_pickaxe": "Кирка из Розового Проксия",
+  "item.wekkonmod.pink_proxium_axe": "Топор из Розового Проксия",
+  "item.wekkonmod.pink_proxium_shovel": "Лопата из Розового Проксия",
+  "item.wekkonmod.pink_proxium_hoe": "Мотыга из Розового Проксия",
+  "item.wekkonmod.pink_proxium_sword": "Меч из Розового Проксия",
+  "item.wekkonmod.orange_proxium_pickaxe": "Кирка из Оранжевого Проксия",
+  "item.wekkonmod.orange_proxium_axe": "Топор из Оранжевого Проксия",
+  "item.wekkonmod.orange_proxium_shovel": "Лопата из Оранжевого Проксия",
+  "item.wekkonmod.orange_proxium_hoe": "Мотыга из Оранжевого Проксия",
+  "item.wekkonmod.orange_proxium_sword": "Меч из Оранжевого Проксия",
 
 
   "block.wekkonmod.pink_proxium_block": "Блок из Розового Проксия",
@@ -41,6 +51,7 @@
   "itemgroup.wekkonmod.other_wekkon_blocks": "Другие блоки Веккона",
   "itemgroup.wekkonmod.wekkon_food": "Еда Веккона",
   "itemgroup.wekkonmod.proxium_nonblocks": "Функциональные блоки Веккона",
+  "itemgroup.wekkonmod.proxium_tools": "Инструменты из Проксия",
 
 
   "tooltip.wekkonmod.magic_block.tooltip": "Просто кинь Чистый Проксиум на этот блок и увидишь §6МАГИЮ!",

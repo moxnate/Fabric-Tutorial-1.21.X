@@ -26,6 +26,24 @@ public class ModItemGroups {
 
                     }).build());
 
+    public static final ItemGroup PROXIUM_TOOLS_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(WekkonMod.MOD_ID, "proxium_tools"),
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.PINK_PROXIUM_PICKAXE))
+                    .displayName(Text.translatable("itemgroup.wekkonmod.proxium_tools"))
+                    .entries((displayContext, entries) -> {
+                      entries.add(ModItems.PINK_PROXIUM_PICKAXE);
+                      entries.add(ModItems.PINK_PROXIUM_AXE);
+                      entries.add(ModItems.PINK_PROXIUM_SHOVEL);
+                      entries.add(ModItems.PINK_PROXIUM_HOE);
+                      entries.add(ModItems.PINK_PROXIUM_SWORD);
+                      entries.add(ModItems.ORANGE_PROXIUM_PICKAXE);
+                      entries.add(ModItems.ORANGE_PROXIUM_AXE);
+                      entries.add(ModItems.ORANGE_PROXIUM_SHOVEL);
+                      entries.add(ModItems.ORANGE_PROXIUM_HOE);
+                      entries.add(ModItems.ORANGE_PROXIUM_SWORD);
+
+                    }).build());
+
     public static final ItemGroup PROXIUM_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(WekkonMod.MOD_ID, "proxium_blocks"),
             FabricItemGroup.builder().icon(() -> new ItemStack(ModBlocks.PINK_PROXIUM_BLOCK))

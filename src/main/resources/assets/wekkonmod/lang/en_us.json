@@ -10,6 +10,16 @@
   "item.wekkonmod.red_candy_cane": "Red Candy Cane",
   "item.wekkonmod.sweet_berries_juice": "Sweet Berries Juice",
   "item.wekkonmod.burning_star": "§6Burning Star",
+  "item.wekkonmod.pink_proxium_pickaxe": "Pink Proxium Pickaxe",
+  "item.wekkonmod.pink_proxium_axe": "Pink Proxium Axe",
+  "item.wekkonmod.pink_proxium_shovel": "Pink Proxium Shovel",
+  "item.wekkonmod.pink_proxium_hoe": "Pink Proxium Hoe",
+  "item.wekkonmod.pink_proxium_sword": "Pink Proxium Sword",
+  "item.wekkonmod.orange_proxium_pickaxe": "Orange Proxium Pickaxe",
+  "item.wekkonmod.orange_proxium_axe": "Orange Proxium Axe",
+  "item.wekkonmod.orange_proxium_shovel": "Orange Proxium Shovel",
+  "item.wekkonmod.orange_proxium_hoe": "Orange Proxium Hoe",
+  "item.wekkonmod.orange_proxium_sword": "Orange Proxium Sword",
 
   "block.wekkonmod.pink_proxium_block": "Block of Pink Proxium",
   "block.wekkonmod.pink_proxium_ore": "Pink Proxium Ore",
@@ -40,6 +50,7 @@
   "itemgroup.wekkonmod.other_wekkon_blocks": "Other Wekkon Blocks",
   "itemgroup.wekkonmod.wekkon_food": "Wekkon Food",
   "itemgroup.wekkonmod.proxium_nonblocks": "Wekkon Functional Blocks",
+  "itemgroup.wekkonmod.proxium_tools": "Proxium Tools",
 
 
   "tooltip.wekkonmod.magic_block.tooltip": "Just drop a Pure Proxium on this block and then you will see §6MAGIC!§r",
