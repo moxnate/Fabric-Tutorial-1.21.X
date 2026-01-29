@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "wekkonmod:item/orange_proxium_axe"
+  }
+}

@@ -1,3 +1,8 @@
-// 1.21	2026-01-23T20:09:34.9345277	Wekkon Mod/Tags for minecraft:item
+// 1.21	2026-01-29T16:03:33.4952941	Wekkon Mod/Tags for minecraft:item
 dcfcde0b3716705215c339c3ed7bb1fe6da2cdb2 data\wekkonmod\tags\item\transformable_items_one.json
+c2a47f74bb8548685e543ef502a1d12f0a4cb464 data\minecraft\tags\item\pickaxes.json
+3b14f9b813cf8ab9e253bd0407b7888bda0f21a4 data\minecraft\tags\item\hoes.json
 3af7e8d91ae3bed01b8f1c9cb82d86879d4f7488 data\wekkonmod\tags\item\transformable_items.json
+d11eb50f2c56a11a836dfcf3a451d3e3e064ee88 data\minecraft\tags\item\swords.json
+e113163eac6da77eae594c04a047634e78738f48 data\minecraft\tags\item\axes.json
+3b5a386fa9c74b998949e0e299a8b0fff48467d7 data\minecraft\tags\item\shovels.json

@@ -23,7 +23,10 @@ public class ModItems {
     public static final Item RAW_ORANGE_PROXIUM = registerItem("raw_orange_proxium", new Item(new Item.Settings()));
     public static final Item REINFORCED_ORANGE_PROXIUM = registerItem("reinforced_orange_proxium", new Item(new Item.Settings()));
 
-
+    public static final Item RAW_PINK_PROXIUM_ROD = registerItem("raw_pink_proxium_rod", new Item(new Item.Settings()));
+    public static final Item PINK_PROXIUM_ROD = registerItem("pink_proxium_rod", new Item(new Item.Settings()));
+    public static final Item RAW_ORANGE_PROXIUM_ROD = registerItem("raw_orange_proxium_rod", new Item(new Item.Settings()));
+    public static final Item ORANGE_PROXIUM_ROD = registerItem("orange_proxium_rod", new Item(new Item.Settings()));
     public static final Item PINK_PROXIUM_SWORD = registerItem("pink_proxium_sword",
             new SwordItem(ModToolMaterials.PINK_PROXIUM, new Item.Settings()
                     .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.PINK_PROXIUM, 3, -2.4f))));

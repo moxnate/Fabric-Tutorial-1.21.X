@@ -36,11 +36,15 @@ public class ModItemGroups {
                       entries.add(ModItems.PINK_PROXIUM_SHOVEL);
                       entries.add(ModItems.PINK_PROXIUM_HOE);
                       entries.add(ModItems.PINK_PROXIUM_SWORD);
+                      entries.add(ModItems.RAW_PINK_PROXIUM_ROD);
+                      entries.add(ModItems.PINK_PROXIUM_ROD);
                       entries.add(ModItems.ORANGE_PROXIUM_PICKAXE);
                       entries.add(ModItems.ORANGE_PROXIUM_AXE);
                       entries.add(ModItems.ORANGE_PROXIUM_SHOVEL);
                       entries.add(ModItems.ORANGE_PROXIUM_HOE);
                       entries.add(ModItems.ORANGE_PROXIUM_SWORD);
+                      entries.add(ModItems.RAW_ORANGE_PROXIUM_ROD);
+                      entries.add(ModItems.ORANGE_PROXIUM_ROD);
 
                     }).build());
 

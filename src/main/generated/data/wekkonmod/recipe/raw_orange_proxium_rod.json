@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "R": {
+      "item": "wekkonmod:reinforced_orange_proxium"
+    }
+  },
+  "pattern": [
+    " R ",
+    " R ",
+    " R "
+  ],
+  "result": {
+    "count": 1,
+    "id": "wekkonmod:raw_orange_proxium_rod"
+  }
+}

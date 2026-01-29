@@ -6,6 +6,7 @@ import net.minecraft.block.Block;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.BlockTags;
 import net.moxnate.wekkonmod.block.ModBlocks;
+import net.moxnate.wekkonmod.util.ModTags;
 
 import java.util.concurrent.CompletableFuture;
 
@@ -26,7 +27,6 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.MAGIC_BLOCK);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
-                .add(ModBlocks.PINK_PROXIUM_ORE)
                 .add(ModBlocks.ORANGE_PROXIUM_BLOCK);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
@@ -39,6 +39,13 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.FENCES).add(ModBlocks.PINK_PROXIUM_FENCE);
         getOrCreateTagBuilder(BlockTags.FENCE_GATES).add(ModBlocks.PINK_PROXIUM_FENCE_GATE);
         getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.PINK_PROXIUM_WALL);
+
+        getOrCreateTagBuilder(ModTags.Blocks.NEEDS_PINK_PROXIUM_TOOL)
+                .addTag(BlockTags.NEEDS_DIAMOND_TOOL);
+
+        getOrCreateTagBuilder(ModTags.Blocks.NEEDS_ORANGE_PROXIUM_TOOL)
+                .addTag(BlockTags.NEEDS_DIAMOND_TOOL)
+                .add(ModBlocks.PINK_PROXIUM_ORE);
 
 
     }

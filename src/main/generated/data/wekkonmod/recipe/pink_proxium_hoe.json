@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "P": {
+      "item": "wekkonmod:reinforced_pink_proxium"
+    },
+    "R": {
+      "item": "wekkonmod:pink_proxium_rod"
+    }
+  },
+  "pattern": [
+    " PP",
+    " P ",
+    " R "
+  ],
+  "result": {
+    "count": 1,
+    "id": "wekkonmod:pink_proxium_hoe"
+  }
+}

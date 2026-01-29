@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 150,
+  "experience": 0.5,
+  "group": "orange_proxium_rod",
+  "ingredient": {
+    "item": "wekkonmod:raw_orange_proxium_rod"
+  },
+  "result": {
+    "id": "wekkonmod:orange_proxium_rod"
+  }
+}

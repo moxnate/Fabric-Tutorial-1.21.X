@@ -66,8 +66,25 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.SWEET_BERRIES_JUICE, Models.GENERATED);
 
 
-        itemModelGenerator.register(ModItems.CHISEL, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CHISEL, Models.HANDHELD);
         itemModelGenerator.register(ModItems.BURNING_STAR, Models.GENERATED);
+
+
+        itemModelGenerator.register(ModItems.PINK_PROXIUM_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.PINK_PROXIUM_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.PINK_PROXIUM_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.PINK_PROXIUM_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.PINK_PROXIUM_HOE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.ORANGE_PROXIUM_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.ORANGE_PROXIUM_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.ORANGE_PROXIUM_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.ORANGE_PROXIUM_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.ORANGE_PROXIUM_HOE, Models.HANDHELD);
+
+        itemModelGenerator.register(ModItems.RAW_PINK_PROXIUM_ROD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.PINK_PROXIUM_ROD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.RAW_ORANGE_PROXIUM_ROD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.ORANGE_PROXIUM_ROD, Models.HANDHELD);
 
 
 

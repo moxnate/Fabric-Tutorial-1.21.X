@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_orange_proxium_rod": {
+      "conditions": {
+        "items": [
+          {
+            "items": "wekkonmod:orange_proxium_rod"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_reinforced_orange_proxium": {
+      "conditions": {
+        "items": [
+          {
+            "items": "wekkonmod:reinforced_orange_proxium"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "wekkonmod:orange_proxium_pickaxe"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_reinforced_orange_proxium",
+      "has_orange_proxium_rod"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "wekkonmod:orange_proxium_pickaxe"
+    ]
+  }
+}

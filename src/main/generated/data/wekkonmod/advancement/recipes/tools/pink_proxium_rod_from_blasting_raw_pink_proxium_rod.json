@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_pink_proxium_rod": {
+      "conditions": {
+        "items": [
+          {
+            "items": "wekkonmod:raw_pink_proxium_rod"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:pink_proxium_rod_from_blasting_raw_pink_proxium_rod"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_raw_pink_proxium_rod"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:pink_proxium_rod_from_blasting_raw_pink_proxium_rod"
+    ]
+  }
+}
