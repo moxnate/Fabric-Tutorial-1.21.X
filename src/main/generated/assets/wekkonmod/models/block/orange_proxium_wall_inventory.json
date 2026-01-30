@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "wekkonmod:block/orange_proxium_block"
+  }
+}

@@ -10,6 +10,7 @@ import net.minecraft.util.Identifier;
 import net.moxnate.wekkonmod.WekkonMod;
 import net.moxnate.wekkonmod.item.custom.ChiselItem;
 import net.moxnate.wekkonmod.item.custom.DrinkItem;
+import net.moxnate.wekkonmod.item.custom.HammerItem;
 
 import java.util.List;
 
@@ -42,6 +43,13 @@ public class ModItems {
     public static final Item PINK_PROXIUM_HOE = registerItem("pink_proxium_hoe",
             new HoeItem(ModToolMaterials.PINK_PROXIUM, new Item.Settings()
                     .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.PINK_PROXIUM, 0, -3f))));
+
+    public static final Item PINK_PROXIUM_HAMMER = registerItem("pink_proxium_hammer",
+            new HammerItem(ModToolMaterials.PINK_PROXIUM, new Item.Settings()
+                    .attributeModifiers(HammerItem.createAttributeModifiers(ModToolMaterials.PINK_PROXIUM, 7, -3.4f))));
+    public static final Item ORANGE_PROXIUM_HAMMER = registerItem("orange_proxium_hammer",
+            new HammerItem(ModToolMaterials.ORANGE_PROXIUM, new Item.Settings()
+                    .attributeModifiers(HammerItem.createAttributeModifiers(ModToolMaterials.ORANGE_PROXIUM, 14, -3.2f))));
 
     public static final Item ORANGE_PROXIUM_SWORD = registerItem("orange_proxium_sword",
             new SwordItem(ModToolMaterials.ORANGE_PROXIUM, new Item.Settings()

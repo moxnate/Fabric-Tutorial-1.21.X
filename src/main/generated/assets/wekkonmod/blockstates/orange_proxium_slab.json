@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "wekkonmod:block/orange_proxium_slab"
+    },
+    "type=double": {
+      "model": "wekkonmod:block/orange_proxium_block"
+    },
+    "type=top": {
+      "model": "wekkonmod:block/orange_proxium_slab_top"
+    }
+  }
+}

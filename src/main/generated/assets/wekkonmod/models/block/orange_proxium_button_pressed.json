@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button_pressed",
+  "textures": {
+    "texture": "wekkonmod:block/orange_proxium_block"
+  }
+}

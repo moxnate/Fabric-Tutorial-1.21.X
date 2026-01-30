@@ -24,6 +24,8 @@
   "item.wekkonmod.pink_proxium_rod": "Pink Proxium Rod",
   "item.wekkonmod.orange_proxium_rod": "Orange Proxium Rod",
   "item.wekkonmod.raw_orange_proxium_rod": "Raw Orange Proxium Rod",
+  "item.wekkonmod.pink_proxium_hammer": "Pink Proxium Hammer",
+  "item.wekkonmod.orange_proxium_hammer": "Orange Proxium Hammer",
 
   "block.wekkonmod.pink_proxium_block": "Block of Pink Proxium",
   "block.wekkonmod.pink_proxium_ore": "Pink Proxium Ore",
@@ -46,6 +48,19 @@
 
   "block.wekkonmod.pink_proxium_slab": "Pink Proxium Slab",
   "block.wekkonmod.pink_proxium_stairs": "Pink Proxium Stairs",
+
+  "block.wekkonmod.orange_proxium_door": "Orange Proxium Door",
+  "block.wekkonmod.orange_proxium_trapdoor": "Orange Proxium Trapdoor",
+
+  "block.wekkonmod.orange_proxium_fence": "Orange Proxium Fence",
+  "block.wekkonmod.orange_proxium_fence_gate": "Orange Proxium Fence Gate",
+  "block.wekkonmod.orange_proxium_wall": "Orange Proxium Wall",
+
+  "block.wekkonmod.orange_proxium_pressure_plate": "Orange Proxium Pressure Plate",
+  "block.wekkonmod.orange_proxium_button": "Orange Proxium Button",
+
+  "block.wekkonmod.orange_proxium_slab": "Orange Proxium Slab",
+  "block.wekkonmod.orange_proxium_stairs": "Orange Proxium Stairs",
 
 
   "itemgroup.wekkonmod.proxium_crystals": "Proxium Crystals",

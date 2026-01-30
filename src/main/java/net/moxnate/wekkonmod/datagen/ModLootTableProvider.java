@@ -28,6 +28,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
     @Override
     public void generate() {
+        addDrop(ModBlocks.WEKKON_LAMP);
         addDrop(ModBlocks.MAGIC_BLOCK);
         addDrop(ModBlocks.PINK_PROXIUM_BLOCK);
         addDrop(ModBlocks.ORANGE_PROXIUM_BLOCK);
@@ -46,10 +47,22 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.PINK_PROXIUM_WALL);
         addDrop(ModBlocks.PINK_PROXIUM_FENCE);
         addDrop(ModBlocks.PINK_PROXIUM_FENCE_GATE);
-        addDrop(ModBlocks.WEKKON_LAMP);
 
         addDrop(ModBlocks.PINK_PROXIUM_DOOR, doorDrops(ModBlocks.PINK_PROXIUM_DOOR));
         addDrop(ModBlocks.PINK_PROXIUM_TRAPDOOR);
+
+        addDrop(ModBlocks.PINK_PROXIUM_STAIRS);
+        addDrop(ModBlocks.PINK_PROXIUM_SLAB, slabDrops(ModBlocks.PINK_PROXIUM_SLAB));
+
+        addDrop(ModBlocks.ORANGE_PROXIUM_BUTTON);
+        addDrop(ModBlocks.ORANGE_PROXIUM_PRESSURE_PLATE);
+
+        addDrop(ModBlocks.ORANGE_PROXIUM_WALL);
+        addDrop(ModBlocks.ORANGE_PROXIUM_FENCE);
+        addDrop(ModBlocks.ORANGE_PROXIUM_FENCE_GATE);
+
+        addDrop(ModBlocks.ORANGE_PROXIUM_DOOR, doorDrops(ModBlocks.ORANGE_PROXIUM_DOOR));
+        addDrop(ModBlocks.ORANGE_PROXIUM_TRAPDOOR);
 
 
 

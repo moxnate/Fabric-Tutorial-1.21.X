@@ -24,6 +24,8 @@
   "item.wekkonmod.pink_proxium_rod": "Стержень из Розового Проксия",
   "item.wekkonmod.orange_proxium_rod": "Стержень из Оранжевого Проксия",
   "item.wekkonmod.raw_orange_proxium_rod": "Необработанный Стержень из Оранжевого Проксия",
+  "item.wekkonmod.pink_proxium_hammer": "Молот из Розового Проксия",
+  "item.wekkonmod.orange_proxium_hammer": "Молот из Оранжевого Проксия",
 
 
   "block.wekkonmod.pink_proxium_block": "Блок из Розового Проксия",
@@ -47,6 +49,19 @@
 
   "block.wekkonmod.pink_proxium_slab": "Полублок из Розового Проксия",
   "block.wekkonmod.pink_proxium_stairs": "Забор из Розового Проксия",
+
+  "block.wekkonmod.orange_proxium_door": "Дверь из Оранжевого Проксия",
+  "block.wekkonmod.orange_proxium_trapdoor": "Люк из Оранжевого Проксия",
+
+  "block.wekkonmod.orange_proxium_fence": "Забор из Оранжевого Проксия",
+  "block.wekkonmod.orange_proxium_fence_gate": "Калитка из Оранжевого Проксия",
+  "block.wekkonmod.orange_proxium_wall": "Стена из Оранжевого Проксия",
+
+  "block.wekkonmod.orange_proxium_pressure_plate": "Нажимная плита из Оранжевого Проксия",
+  "block.wekkonmod.orange_proxium_button": "Кнопка из Оранжевого Проксия",
+
+  "block.wekkonmod.orange_proxium_slab": "Полублок из Оранжевого Проксия",
+  "block.wekkonmod.orange_proxium_stairs": "Лестница из Оранжевого Проксия",
 
 
   "itemgroup.wekkonmod.proxium_crystals": "Кристаллы Проксия",

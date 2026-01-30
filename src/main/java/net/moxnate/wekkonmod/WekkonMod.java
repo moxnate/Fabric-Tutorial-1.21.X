@@ -2,11 +2,13 @@ package net.moxnate.wekkonmod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.event.player.PlayerBlockBreakEvents;
 import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.moxnate.wekkonmod.block.ModBlocks;
 import net.moxnate.wekkonmod.component.ModDataComponentTypes;
 import net.moxnate.wekkonmod.item.ModItemGroups;
 import net.moxnate.wekkonmod.item.ModItems;
+import net.moxnate.wekkonmod.util.HammerUsageEvent;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -25,5 +27,8 @@ public class WekkonMod implements ModInitializer {
 
         FuelRegistry.INSTANCE.add(ModItems.BURNING_STAR, 6400);
         FuelRegistry.INSTANCE.add(ModItems.PURE_PROXIUM, 20_000);
+
+
+        PlayerBlockBreakEvents.BEFORE.register(new HammerUsageEvent());
 	}
 }

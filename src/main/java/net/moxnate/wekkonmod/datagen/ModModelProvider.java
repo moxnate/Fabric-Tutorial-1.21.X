@@ -17,9 +17,9 @@ public class ModModelProvider extends FabricModelProvider {
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
         BlockStateModelGenerator.BlockTexturePool pinkProxiumPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.PINK_PROXIUM_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool orangeProxiumPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.ORANGE_PROXIUM_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PINK_PROXIUM_ORE);
 
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ORANGE_PROXIUM_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ORANGE_PROXIUM_ORE);
 
 
@@ -40,6 +40,19 @@ public class ModModelProvider extends FabricModelProvider {
 
         blockStateModelGenerator.registerDoor(ModBlocks.PINK_PROXIUM_DOOR);
         blockStateModelGenerator.registerTrapdoor(ModBlocks.PINK_PROXIUM_TRAPDOOR);
+
+        orangeProxiumPool.stairs(ModBlocks.ORANGE_PROXIUM_STAIRS);
+        orangeProxiumPool.slab(ModBlocks.ORANGE_PROXIUM_SLAB);
+
+        orangeProxiumPool.button(ModBlocks.ORANGE_PROXIUM_BUTTON);
+        orangeProxiumPool.pressurePlate(ModBlocks.ORANGE_PROXIUM_PRESSURE_PLATE);
+
+        orangeProxiumPool.wall(ModBlocks.ORANGE_PROXIUM_WALL);
+        orangeProxiumPool.fence(ModBlocks.ORANGE_PROXIUM_FENCE);
+        orangeProxiumPool.fenceGate(ModBlocks.ORANGE_PROXIUM_FENCE_GATE);
+
+        blockStateModelGenerator.registerDoor(ModBlocks.ORANGE_PROXIUM_DOOR);
+        blockStateModelGenerator.registerTrapdoor(ModBlocks.ORANGE_PROXIUM_TRAPDOOR);
 
         Identifier lampOffIdentifier = TexturedModel.CUBE_ALL.upload(ModBlocks.WEKKON_LAMP, blockStateModelGenerator.modelCollector);
         Identifier lampOnIdentifier = blockStateModelGenerator.createSubModel(ModBlocks.WEKKON_LAMP, "_on", Models.CUBE_ALL, TextureMap::all);
@@ -80,6 +93,9 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.ORANGE_PROXIUM_AXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.ORANGE_PROXIUM_SHOVEL, Models.HANDHELD);
         itemModelGenerator.register(ModItems.ORANGE_PROXIUM_HOE, Models.HANDHELD);
+
+        itemModelGenerator.register(ModItems.PINK_PROXIUM_HAMMER, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.ORANGE_PROXIUM_HAMMER, Models.HANDHELD);
 
         itemModelGenerator.register(ModItems.RAW_PINK_PROXIUM_ROD, Models.HANDHELD);
         itemModelGenerator.register(ModItems.PINK_PROXIUM_ROD, Models.HANDHELD);

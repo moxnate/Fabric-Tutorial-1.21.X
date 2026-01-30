@@ -28,9 +28,9 @@ public class ModBlocks {
             new SlabBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()));
 
     public static final Block PINK_PROXIUM_BUTTON = registerBlock("pink_proxium_button",
-            new ButtonBlock(BlockSetType.IRON, 2, AbstractBlock.Settings.create().strength(2f).requiresTool().noCollision()));
+            new ButtonBlock(BlockSetType.ACACIA, 2, AbstractBlock.Settings.create().strength(2f).requiresTool().noCollision()));
     public static final Block PINK_PROXIUM_PRESSURE_PLATE = registerBlock("pink_proxium_pressure_plate",
-            new PressurePlateBlock(BlockSetType.IRON, AbstractBlock.Settings.create().strength(2f).requiresTool()));
+            new PressurePlateBlock(BlockSetType.ACACIA, AbstractBlock.Settings.create().strength(2f).requiresTool()));
 
     public static final Block PINK_PROXIUM_FENCE = registerBlock("pink_proxium_fence",
             new FenceBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()));
@@ -40,9 +40,33 @@ public class ModBlocks {
             new WallBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()));
 
     public static final Block PINK_PROXIUM_DOOR = registerBlock("pink_proxium_door",
-            new DoorBlock(BlockSetType.IRON, AbstractBlock.Settings.create().strength(2f).requiresTool().nonOpaque()));
+            new DoorBlock(BlockSetType.ACACIA, AbstractBlock.Settings.create().strength(2f).requiresTool().nonOpaque()));
     public static final Block PINK_PROXIUM_TRAPDOOR = registerBlock("pink_proxium_trapdoor",
-            new TrapdoorBlock(BlockSetType.IRON, AbstractBlock.Settings.create().strength(2f).requiresTool().nonOpaque()));
+            new TrapdoorBlock(BlockSetType.ACACIA, AbstractBlock.Settings.create().strength(2f).requiresTool().nonOpaque()));
+
+
+    public static final Block ORANGE_PROXIUM_STAIRS = registerBlock("orange_proxium_stairs",
+            new StairsBlock(ModBlocks.PINK_PROXIUM_BLOCK.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(5f).requiresTool()));
+    public static final Block ORANGE_PROXIUM_SLAB = registerBlock("orange_proxium_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(5f).requiresTool()));
+
+    public static final Block ORANGE_PROXIUM_BUTTON = registerBlock("orange_proxium_button",
+            new ButtonBlock(BlockSetType.IRON, 20, AbstractBlock.Settings.create().strength(5f).requiresTool().noCollision()));
+    public static final Block ORANGE_PROXIUM_PRESSURE_PLATE = registerBlock("orange_proxium_pressure_plate",
+            new PressurePlateBlock(BlockSetType.IRON, AbstractBlock.Settings.create().strength(5f).requiresTool()));
+
+    public static final Block ORANGE_PROXIUM_FENCE = registerBlock("orange_proxium_fence",
+            new FenceBlock(AbstractBlock.Settings.create().strength(5f).requiresTool()));
+    public static final Block ORANGE_PROXIUM_FENCE_GATE = registerBlock("orange_proxium_fence_gate",
+            new FenceGateBlock(WoodType.ACACIA, AbstractBlock.Settings.create().strength(5f).requiresTool()));
+    public static final Block ORANGE_PROXIUM_WALL = registerBlock("orange_proxium_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(5f).requiresTool()));
+
+    public static final Block ORANGE_PROXIUM_DOOR = registerBlock("orange_proxium_door",
+            new DoorBlock(BlockSetType.IRON, AbstractBlock.Settings.create().strength(5f).requiresTool().nonOpaque()));
+    public static final Block ORANGE_PROXIUM_TRAPDOOR = registerBlock("orange_proxium_trapdoor",
+            new TrapdoorBlock(BlockSetType.IRON, AbstractBlock.Settings.create().strength(5f).requiresTool().nonOpaque()));
 
 
     public static final Block ORANGE_PROXIUM_BLOCK = registerBlock("orange_proxium_block",

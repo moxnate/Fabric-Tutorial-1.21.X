@@ -45,6 +45,8 @@ public class ModItemGroups {
                       entries.add(ModItems.ORANGE_PROXIUM_SWORD);
                       entries.add(ModItems.RAW_ORANGE_PROXIUM_ROD);
                       entries.add(ModItems.ORANGE_PROXIUM_ROD);
+                      entries.add(ModItems.PINK_PROXIUM_HAMMER);
+                      entries.add(ModItems.ORANGE_PROXIUM_HAMMER);
 
                     }).build());
 
@@ -78,6 +80,19 @@ public class ModItemGroups {
 
                       entries.add(ModBlocks.PINK_PROXIUM_SLAB);
                       entries.add(ModBlocks.PINK_PROXIUM_STAIRS);
+
+                      entries.add(ModBlocks.ORANGE_PROXIUM_DOOR);
+                      entries.add(ModBlocks.ORANGE_PROXIUM_TRAPDOOR);
+
+                      entries.add(ModBlocks.ORANGE_PROXIUM_FENCE);
+                      entries.add(ModBlocks.ORANGE_PROXIUM_FENCE_GATE);
+                      entries.add(ModBlocks.ORANGE_PROXIUM_WALL);
+
+                      entries.add(ModBlocks.ORANGE_PROXIUM_PRESSURE_PLATE);
+                      entries.add(ModBlocks.ORANGE_PROXIUM_BUTTON);
+
+                      entries.add(ModBlocks.ORANGE_PROXIUM_SLAB);
+                      entries.add(ModBlocks.ORANGE_PROXIUM_STAIRS);
                     }).build());
 
     public static final ItemGroup OTHER_WEKKON_ITEMS = Registry.register(Registries.ITEM_GROUP,

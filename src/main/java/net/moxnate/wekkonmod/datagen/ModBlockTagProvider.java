@@ -40,12 +40,25 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.FENCE_GATES).add(ModBlocks.PINK_PROXIUM_FENCE_GATE);
         getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.PINK_PROXIUM_WALL);
 
+        getOrCreateTagBuilder(BlockTags.FENCES).add(ModBlocks.ORANGE_PROXIUM_FENCE);
+        getOrCreateTagBuilder(BlockTags.FENCE_GATES).add(ModBlocks.ORANGE_PROXIUM_FENCE_GATE);
+        getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.ORANGE_PROXIUM_WALL);
+
         getOrCreateTagBuilder(ModTags.Blocks.NEEDS_PINK_PROXIUM_TOOL)
                 .addTag(BlockTags.NEEDS_DIAMOND_TOOL);
 
         getOrCreateTagBuilder(ModTags.Blocks.NEEDS_ORANGE_PROXIUM_TOOL)
                 .addTag(BlockTags.NEEDS_DIAMOND_TOOL)
-                .add(ModBlocks.PINK_PROXIUM_ORE);
+                .add(ModBlocks.PINK_PROXIUM_ORE)
+                .add(ModBlocks.ORANGE_PROXIUM_FENCE_GATE)
+                .add(ModBlocks.ORANGE_PROXIUM_FENCE)
+                .add(ModBlocks.ORANGE_PROXIUM_WALL)
+                .add(ModBlocks.ORANGE_PROXIUM_BUTTON)
+                .add(ModBlocks.ORANGE_PROXIUM_PRESSURE_PLATE)
+                .add(ModBlocks.ORANGE_PROXIUM_DOOR)
+                .add(ModBlocks.ORANGE_PROXIUM_TRAPDOOR)
+                .add(ModBlocks.ORANGE_PROXIUM_SLAB)
+                .add(ModBlocks.ORANGE_PROXIUM_STAIRS);
 
 
     }

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "wekkonmod:block/orange_proxium_block",
+    "side": "wekkonmod:block/orange_proxium_block",
+    "top": "wekkonmod:block/orange_proxium_block"
+  }
+}
