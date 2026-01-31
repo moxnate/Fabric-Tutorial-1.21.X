@@ -27,6 +27,11 @@
   "item.wekkonmod.pink_proxium_hammer": "Pink Proxium Hammer",
   "item.wekkonmod.orange_proxium_hammer": "Orange Proxium Hammer",
 
+  "item.wekkonmod.wekkon_helmet": "§6§lWekkon Helmet§r",
+  "item.wekkonmod.wekkon_chestplate": "§6§lWekkon Chestplate§r",
+  "item.wekkonmod.wekkon_leggings": "§6§lWekkon Leggings§r",
+  "item.wekkonmod.wekkon_boots": "§6§lWekkon Boots§r",
+
   "block.wekkonmod.pink_proxium_block": "Block of Pink Proxium",
   "block.wekkonmod.pink_proxium_ore": "Pink Proxium Ore",
   "block.wekkonmod.orange_proxium_block": "Block of Orange Proxium",

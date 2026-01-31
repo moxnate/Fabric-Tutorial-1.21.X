@@ -27,6 +27,11 @@
   "item.wekkonmod.pink_proxium_hammer": "Молот из Розового Проксия",
   "item.wekkonmod.orange_proxium_hammer": "Молот из Оранжевого Проксия",
 
+  "item.wekkonmod.wekkon_helmet": "§6§lШлем Веккона§r",
+  "item.wekkonmod.wekkon_chestplate": "§6§lНагрудник Веккона§r",
+  "item.wekkonmod.wekkon_leggings": "§6§lПоножи Веккона§r",
+  "item.wekkonmod.wekkon_boots": "§6§lБотинки Веккона§r",
+
 
   "block.wekkonmod.pink_proxium_block": "Блок из Розового Проксия",
   "block.wekkonmod.pink_proxium_ore": "Руда Розового Проксия",

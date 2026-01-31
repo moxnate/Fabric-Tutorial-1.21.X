@@ -45,6 +45,12 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.PINK_PROXIUM_HOE)
                 .add(ModItems.ORANGE_PROXIUM_HOE);
 
+        getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR)
+                .add(ModItems.WEKKON_HELMET)
+                .add(ModItems.WEKKON_CHESTPLATE)
+                .add(ModItems.WEKKON_LEGGINGS)
+                .add(ModItems.WEKKON_BOOTS);
+
 
     }
 }

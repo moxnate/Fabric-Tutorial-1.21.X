@@ -89,6 +89,20 @@ public class ModItems {
     public static final Item BURNING_STAR = registerItem("burning_star", new Item(new Item.Settings()));
 
 
+    public static final Item WEKKON_HELMET = registerItem("wekkon_helmet",
+            new ArmorItem(ModArmorMaterials.WEKKON_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(4970))));
+    public static final Item WEKKON_CHESTPLATE = registerItem("wekkon_chestplate",
+            new ArmorItem(ModArmorMaterials.WEKKON_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(4970))));
+    public static final Item WEKKON_LEGGINGS = registerItem("wekkon_leggings",
+            new ArmorItem(ModArmorMaterials.WEKKON_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(4970))));
+    public static final Item WEKKON_BOOTS = registerItem("wekkon_boots",
+            new ArmorItem(ModArmorMaterials.WEKKON_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(4970))));
+
+
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(WekkonMod.MOD_ID, name), item);
     }

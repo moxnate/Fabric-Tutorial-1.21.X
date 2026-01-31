@@ -4,6 +4,7 @@ import com.ibm.icu.text.Normalizer2;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.*;
+import net.minecraft.item.ArmorItem;
 import net.minecraft.util.Identifier;
 import net.moxnate.wekkonmod.block.ModBlocks;
 import net.moxnate.wekkonmod.block.custom.WekkonLampBlock;
@@ -101,6 +102,12 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.PINK_PROXIUM_ROD, Models.HANDHELD);
         itemModelGenerator.register(ModItems.RAW_ORANGE_PROXIUM_ROD, Models.HANDHELD);
         itemModelGenerator.register(ModItems.ORANGE_PROXIUM_ROD, Models.HANDHELD);
+
+
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.WEKKON_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.WEKKON_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.WEKKON_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.WEKKON_BOOTS));
 
 
 

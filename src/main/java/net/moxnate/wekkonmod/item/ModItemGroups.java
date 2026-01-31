@@ -48,6 +48,11 @@ public class ModItemGroups {
                       entries.add(ModItems.PINK_PROXIUM_HAMMER);
                       entries.add(ModItems.ORANGE_PROXIUM_HAMMER);
 
+                      entries.add(ModItems.WEKKON_HELMET);
+                      entries.add(ModItems.WEKKON_CHESTPLATE);
+                      entries.add(ModItems.WEKKON_LEGGINGS);
+                      entries.add(ModItems.WEKKON_BOOTS);
+
                     }).build());
 
     public static final ItemGroup PROXIUM_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,
