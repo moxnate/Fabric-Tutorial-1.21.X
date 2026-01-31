@@ -11,6 +11,7 @@ import net.moxnate.wekkonmod.WekkonMod;
 import net.moxnate.wekkonmod.item.custom.ChiselItem;
 import net.moxnate.wekkonmod.item.custom.DrinkItem;
 import net.moxnate.wekkonmod.item.custom.HammerItem;
+import net.moxnate.wekkonmod.item.custom.ModArmorItem;
 
 import java.util.List;
 
@@ -90,7 +91,7 @@ public class ModItems {
 
 
     public static final Item WEKKON_HELMET = registerItem("wekkon_helmet",
-            new ArmorItem(ModArmorMaterials.WEKKON_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
+            new ModArmorItem(ModArmorMaterials.WEKKON_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
                     .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(4970))));
     public static final Item WEKKON_CHESTPLATE = registerItem("wekkon_chestplate",
             new ArmorItem(ModArmorMaterials.WEKKON_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
