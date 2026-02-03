@@ -53,6 +53,8 @@ public class ModItemGroups {
                       entries.add(ModItems.WEKKON_LEGGINGS);
                       entries.add(ModItems.WEKKON_BOOTS);
 
+                      entries.add(ModItems.WEKKON_HORSE_ARMOR);
+
                     }).build());
 
     public static final ItemGroup PROXIUM_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,

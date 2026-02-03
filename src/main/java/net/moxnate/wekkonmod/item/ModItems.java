@@ -103,6 +103,10 @@ public class ModItems {
             new ArmorItem(ModArmorMaterials.WEKKON_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
                     .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(4970))));
 
+    public static final Item WEKKON_HORSE_ARMOR = registerItem("wekkon_horse_armor",
+            new AnimalArmorItem(ModArmorMaterials.WEKKON_ARMOR_MATERIAL, AnimalArmorItem.Type.EQUESTRIAN, false, new Item.Settings()
+                    .maxCount(1)));
+
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(WekkonMod.MOD_ID, name), item);

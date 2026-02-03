@@ -1,4 +1,4 @@
-// 1.21	2026-01-31T21:26:00.58847	Wekkon Mod/Model Definitions
+// 1.21	2026-02-03T19:44:17.315518	Wekkon Mod/Model Definitions
 388912a58c942c44f5401623fe297656eb48e636 assets\wekkonmod\models\item\orange_proxium_hammer.json
 6c50e580506686fc324cefb2c35ffb562f300505 assets\wekkonmod\models\item\wekkon_leggings_amethyst_trim.json
 387d805660b4c30298f083aa4de3ed46b863528c assets\wekkonmod\models\item\pink_proxium_rod.json
@@ -82,6 +82,7 @@ adbe99e552f6d8c4f1f9cb7bb0195cf7512bcdf9 assets\wekkonmod\models\item\pink_proxi
 3f5849b2eb864e5f8b4b98f1340e15752c861201 assets\wekkonmod\models\item\pink_proxium_pressure_plate.json
 d57fd59f8990b17da6be7629cb582099b3296d4c assets\wekkonmod\models\block\pink_proxium_button.json
 6a94238278e1f07bc83e9f3e428be3ec5f340306 assets\wekkonmod\models\item\wekkon_chestplate_quartz_trim.json
+cf5e2df2448397f3015118b5d0e0dbdf51f2b7c9 assets\wekkonmod\models\item\wekkon_horse_armor.json
 f9cb1d7de5e37e487a1e7ba4638bd4c27a95c788 assets\wekkonmod\models\block\pink_proxium_wall_side.json
 954dff899136a910a2b109c5eedbe00ef4d6bf52 assets\wekkonmod\models\item\orange_proxium.json
 0000c1ab7ec40b30665ffef7fec39d695271653e assets\wekkonmod\models\item\wekkon_lamp.json

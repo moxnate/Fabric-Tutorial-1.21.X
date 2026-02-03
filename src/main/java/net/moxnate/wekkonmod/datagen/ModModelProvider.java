@@ -1,6 +1,5 @@
 package net.moxnate.wekkonmod.datagen;
 
-import com.ibm.icu.text.Normalizer2;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.*;
@@ -108,6 +107,8 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.WEKKON_CHESTPLATE));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.WEKKON_LEGGINGS));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.WEKKON_BOOTS));
+
+        itemModelGenerator.register(ModItems.WEKKON_HORSE_ARMOR, Models.GENERATED);
 
 
 

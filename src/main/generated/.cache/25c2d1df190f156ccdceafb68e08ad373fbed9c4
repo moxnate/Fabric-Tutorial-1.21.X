@@ -1,4 +1,4 @@
-// 1.21	2026-01-31T21:26:00.5874701	Wekkon Mod/Recipes
+// 1.21	2026-02-03T19:44:17.3145156	Wekkon Mod/Recipes
 64bd4d1c0110c9c4141c0c76f5b3957dde99c7f5 data\wekkonmod\advancement\recipes\misc\pink_proxium_fence_from_pink_proxium_block_stonecutting.json
 a0fda37f1730829f71042ec00b997bec4673482a data\wekkonmod\recipe\orange_proxium_rod_from_blasting_raw_orange_proxium_rod.json
 1f5b6466bdc21f6ed87ac769b95d147c87295a22 data\wekkonmod\recipe\pink_proxium_button.json
@@ -109,5 +109,5 @@ bf2b1df3bcee3d00d5a7149b0dd15d81b9e76674 data\wekkonmod\advancement\recipes\misc
 f2fa694f1491e62210a57bfc7f94be38105e179a data\wekkonmod\advancement\recipes\redstone\wekkon_lamp.json
 0e26305bf44034ce8406d5f9831b752e715a510a data\wekkonmod\recipe\pink_proxium_from_smelting_raw_pink_proxium.json
 f50fe3ff33d2b45dbb3b74bc8c185ec1da7fd3bd data\wekkonmod\recipe\pink_proxium.json
-0ee912e717becc50f5ef9a1312cccd1da7a62d0a data\wekkonmod\recipe\orange_proxium_from_blasting_raw_orange_proxium.json
 d01211437d7c3756bbeced8ca575d78d0a3370e8 data\wekkonmod\recipe\orange_proxium_from_smelting_orange_proxium_ore.json
+0ee912e717becc50f5ef9a1312cccd1da7a62d0a data\wekkonmod\recipe\orange_proxium_from_blasting_raw_orange_proxium.json
