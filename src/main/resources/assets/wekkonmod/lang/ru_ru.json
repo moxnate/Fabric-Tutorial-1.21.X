@@ -34,6 +34,8 @@
 
   "item.wekkonmod.wekkon_horse_armor": "§6§lКонная броня Веккона§r",
 
+  "item.wekkonmod.moxnate_armor_trim_smithing_template": "Кузнечный шаблон Мохнате",
+
 
   "block.wekkonmod.pink_proxium_block": "Блок из Розового Проксия",
   "block.wekkonmod.pink_proxium_ore": "Руда Розового Проксия",
@@ -87,5 +89,8 @@
   "tooltip.wekkonmod.chisel": "Нажмите §eSHIFT§r для большей информации",
   "tooltip.wekkonmod.red_candy_cane": "Это очень §6вкусная§r закуска,",
   "tooltip.wekkonmod.red_candy_cane.1": "но ты можешь почуствовать §5небольшую слабость после её съедения§r",
-  "coordinates_tooltip": "Последний изменённый блок на "
+  "coordinates_tooltip": "Последний изменённый блок на ",
+
+  "trim_material.wekkonmod.pure_proxium": "Материал Чистый Проксиум",
+  "trim_pattern.wekkonmod.moxnate": "Узор Мохнате"
 }

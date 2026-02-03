@@ -34,6 +34,8 @@
 
   "item.wekkonmod.wekkon_horse_armor": "§6§lWekkon Horse Armor§r",
 
+  "item.wekkonmod.moxnate_armor_trim_smithing_template": "Moxnate Smithing Template",
+
   "block.wekkonmod.pink_proxium_block": "Block of Pink Proxium",
   "block.wekkonmod.pink_proxium_ore": "Pink Proxium Ore",
   "block.wekkonmod.orange_proxium_block": "Block of Orange Proxium",
@@ -86,5 +88,8 @@
   "tooltip.wekkonmod.chisel": "Press §eSHIFT§r for more information",
   "tooltip.wekkonmod.red_candy_cane": "That is very §6awesome§r and §6tasty§r snack,",
   "tooltip.wekkonmod.red_candy_cane.1": "but you may feel a §5little short-lived weakness after you eat it§r",
-  "coordinates.tooltip": "Last block changed at "
+  "coordinates.tooltip": "Last block changed at ",
+
+  "trim_material.wekkonmod.pure_proxium": "Pure Proxium Material",
+  "trim_pattern.wekkonmod.moxnate": "Moxnate Armor Pattern"
 }

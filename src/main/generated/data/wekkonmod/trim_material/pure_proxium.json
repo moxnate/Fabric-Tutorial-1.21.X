@@ -1,0 +1,9 @@
+{
+  "asset_name": "pure_proxium",
+  "description": {
+    "color": "#228665",
+    "translate": "trim_material.wekkonmod.pure_proxium"
+  },
+  "ingredient": "wekkonmod:pure_proxium",
+  "item_model_index": 0.4
+}

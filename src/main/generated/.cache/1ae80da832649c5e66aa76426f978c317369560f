@@ -1,10 +1,10 @@
-// 1.21	2026-02-03T19:44:17.3135182	Wekkon Mod/Tags for minecraft:block
+// 1.21	2026-02-03T20:47:18.1866672	Wekkon Mod/Tags for minecraft:block
 6201ed3a97bfe3217a368cf62d01de0b0f01b567 data\minecraft\tags\block\walls.json
 c76160e8364f817450c8fd59814b212e79ba0932 data\wekkonmod\tags\block\needs_orange_proxium_tool.json
 87fcbab9a16d10e62c8ee1267dc88deaa49790cd data\minecraft\tags\block\fences.json
 dc716e14ac31f265b3ca53933216c10e010c04d6 data\minecraft\tags\block\needs_diamond_tool.json
 3eaafe6539d95657dcbf781d8bbca901fd0e699a data\minecraft\tags\block\fence_gates.json
-96f673e9c6acfd896b41349b7b4c57cf9f478487 data\minecraft\tags\block\mineable\pickaxe.json
 9c881f8fdec3383af68df9584beb863cb90270b2 data\minecraft\tags\block\needs_stone_tool.json
+96f673e9c6acfd896b41349b7b4c57cf9f478487 data\minecraft\tags\block\mineable\pickaxe.json
 c021a1497af22b4e2d10922dcd6b405a76b05666 data\minecraft\tags\block\needs_iron_tool.json
 a249c46329a41538f49a564e1f14338aaf1be5a0 data\wekkonmod\tags\block\needs_pink_proxium_tool.json

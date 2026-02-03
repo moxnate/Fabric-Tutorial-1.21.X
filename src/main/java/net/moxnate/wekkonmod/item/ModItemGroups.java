@@ -55,6 +55,8 @@ public class ModItemGroups {
 
                       entries.add(ModItems.WEKKON_HORSE_ARMOR);
 
+                      entries.add(ModItems.MOXNATE_SMITHING_TEMPLATE);
+
                     }).build());
 
     public static final ItemGroup PROXIUM_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,

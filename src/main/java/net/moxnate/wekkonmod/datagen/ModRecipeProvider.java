@@ -383,5 +383,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .offerTo(recipeExporter);
 
 
+        offerSmithingTrimRecipe(recipeExporter, ModItems.MOXNATE_SMITHING_TEMPLATE, Identifier.of(WekkonMod.MOD_ID, "moxnate"));
+
     }
 }

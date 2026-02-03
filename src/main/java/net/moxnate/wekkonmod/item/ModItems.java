@@ -1,10 +1,10 @@
 package net.moxnate.wekkonmod.item;
 
-import net.minecraft.entity.ai.goal.HorseBondWithPlayerGoal;
 import net.minecraft.item.*;
 import net.minecraft.item.tooltip.TooltipType;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.resource.featuretoggle.FeatureFlags;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.moxnate.wekkonmod.WekkonMod;
@@ -106,6 +106,10 @@ public class ModItems {
     public static final Item WEKKON_HORSE_ARMOR = registerItem("wekkon_horse_armor",
             new AnimalArmorItem(ModArmorMaterials.WEKKON_ARMOR_MATERIAL, AnimalArmorItem.Type.EQUESTRIAN, false, new Item.Settings()
                     .maxCount(1)));
+
+
+    public static final Item MOXNATE_SMITHING_TEMPLATE = registerItem("moxnate_armor_trim_smithing_template",
+            SmithingTemplateItem.of(Identifier.of(WekkonMod.MOD_ID, "moxnate"), FeatureFlags.VANILLA));
 
 
     private static Item registerItem(String name, Item item) {

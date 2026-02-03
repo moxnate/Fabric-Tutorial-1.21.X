@@ -1,0 +1,8 @@
+{
+  "asset_id": "wekkonmod:moxnate",
+  "decal": false,
+  "description": {
+    "translate": "trim_pattern.wekkonmod.moxnate"
+  },
+  "template_item": "wekkonmod:moxnate_armor_trim_smithing_template"
+}

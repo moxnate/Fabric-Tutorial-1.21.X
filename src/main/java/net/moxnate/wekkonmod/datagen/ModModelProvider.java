@@ -109,6 +109,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.WEKKON_BOOTS));
 
         itemModelGenerator.register(ModItems.WEKKON_HORSE_ARMOR, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MOXNATE_SMITHING_TEMPLATE, Models.GENERATED);
 
 
 

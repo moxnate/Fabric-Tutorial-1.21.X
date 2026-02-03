@@ -1,4 +1,4 @@
-// 1.21	2026-02-03T19:44:17.315518	Wekkon Mod/Model Definitions
+// 1.21	2026-02-03T20:47:18.1896688	Wekkon Mod/Model Definitions
 388912a58c942c44f5401623fe297656eb48e636 assets\wekkonmod\models\item\orange_proxium_hammer.json
 6c50e580506686fc324cefb2c35ffb562f300505 assets\wekkonmod\models\item\wekkon_leggings_amethyst_trim.json
 387d805660b4c30298f083aa4de3ed46b863528c assets\wekkonmod\models\item\pink_proxium_rod.json
@@ -30,6 +30,7 @@ a5d575539efa51e820b19f119bd6c9e513b9c193 assets\wekkonmod\models\item\wekkon_boo
 ff3f92c9b5bd657f72c968dd7bf0d3d87e1fd78e assets\wekkonmod\blockstates\pink_proxium_fence.json
 eca4358ad94ad3badb9e1071aa17e7ae36fabfb5 assets\wekkonmod\models\item\wekkon_leggings_quartz_trim.json
 66857485b9fefddd5ceb42419cc672666ff4325b assets\wekkonmod\models\item\wekkon_chestplate_emerald_trim.json
+54073b20005927e8f7cec512680d268d099ec713 assets\wekkonmod\models\item\moxnate_armor_trim_smithing_template.json
 26391b33a8cfe025e40e1709720d4c2f80ffc8a4 assets\wekkonmod\models\item\wekkon_leggings_diamond_trim.json
 cc104236532c7931b5caa157a694e6796ef8183d assets\wekkonmod\models\block\pink_proxium_slab_top.json
 bcbaad525a3f16735da4f1407b0f8116f63852bc assets\wekkonmod\models\block\pure_proxium_block.json

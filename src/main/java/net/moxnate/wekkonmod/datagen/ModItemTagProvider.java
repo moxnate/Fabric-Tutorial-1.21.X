@@ -51,6 +51,11 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.WEKKON_LEGGINGS)
                 .add(ModItems.WEKKON_BOOTS);
 
+        getOrCreateTagBuilder(ItemTags.TRIM_MATERIALS)
+                .add(ModItems.PURE_PROXIUM);
+
+        getOrCreateTagBuilder(ItemTags.TRIM_TEMPLATES)
+                .add(ModItems.MOXNATE_SMITHING_TEMPLATE);
 
     }
 }
